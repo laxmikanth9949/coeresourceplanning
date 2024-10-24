@@ -1,0 +1,13 @@
+{
+    "name": "local-approuter",
+    "description": "Local approuter",
+    "engines": {
+        "node": "^18.14.2"
+    },
+    "dependencies": {
+        "@sap/approuter": "^16.0.2"
+    },
+    "scripts": {
+        "start": "node node_modules/@sap/approuter/approuter.js"
+    }
+}

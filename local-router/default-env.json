@@ -1,0 +1,67 @@
+{
+    "destinations": [
+        {
+            "name": "local",
+            "url": "http://localhost:8080",
+	    "forwardAuthToken": true
+        },
+        {
+            "name": "int_ic",
+            "url": "https://int_ic.dest/",
+            "proxyHost": "127.0.0.1",
+            "proxyPort": "8887"
+        }
+    ],
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "name": "coeresourceplanning-xsuaa-srv",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa"
+                ],
+                "credentials": {
+                    "tenantmode": "dedicated",
+                    "sburl": "https://internal-xsuaa.authentication.eu10.hana.ondemand.com",
+                    "subaccountid": "36b3db9d-3e64-42b5-88fb-5b7b39ec2833",
+                    "credential-type": "instance-secret",
+                    "clientid": "sb-coeresourceplanning!t224065",
+                    "xsappname": "coeresourceplanning!t224065",
+                    "clientsecret": "RecFN0JVaIDwRp28klX/GtnfCVQ=",
+                    "serviceInstanceId": "98bf41a4-320c-4d5d-9d7e-1cac654fd335",
+                    "url": "https://sapit-customersupport-dev-mallard.authentication.eu10.hana.ondemand.com",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy3IfPe+Pr8HwdoZQ0f/H\n3cD7knv1HUcHIhoVxTajIdVssnfIDbVroD8iU8SN936VsXldPQZ7egq+nz0VRl7Q\n5/ZlYpU5tekpEfT0c1dwxPXi6e2VW4wTUNZLLLytgVNmy4xtgSMDx36wYDS0wE1q\nb7tTbGNMih3b/n7iVkK6T7c0TTVaIhp8d7ppyO9qJVkrG4Aou4gLUkRTewYuHskf\nrq8vyI1vNE7R0N4DG+ak5d5JuDGmXn2b5AtKKnV78MvEBJfDO2OWWjgnXLF3rnv0\ng0cfXV1UL4f8hBXNqL3XkFLrcMU4RyeAIgQ1qOCXcyN37zsEIoSHgfj8JhY3Gfnp\nbwIDAQAB\n-----END PUBLIC KEY-----",
+                    "apiurl": "https://api.authentication.eu10.hana.ondemand.com",
+                    "identityzone": "sapit-customersupport-dev-mallard",
+                    "identityzoneid": "36b3db9d-3e64-42b5-88fb-5b7b39ec2833",
+                    "tenantid": "36b3db9d-3e64-42b5-88fb-5b7b39ec2833",
+                    "zoneid": "36b3db9d-3e64-42b5-88fb-5b7b39ec2833"
+                  }
+            }
+        ],
+        "destination": [
+            {
+                "name": "coeresourceplanning-destination-service",
+                "label": "destination",
+                "tags": [
+                    "destination"
+                ],
+                "credentials": {
+                    "tenantmode": "dedicated",
+                    "clientid": "sb-clone6e8067bfb91a47db8052f48c2e7815ad!b224065|destination-xsappname!b404",
+                    "credential-type": "binding-secret",
+                    "xsappname": "clone6e8067bfb91a47db8052f48c2e7815ad!b224065|destination-xsappname!b404",
+                    "clientsecret": "d823a94a-412a-458b-8dc0-d63e7795eb25$CjY8ZrWeQ73eBT_NXecZzEdcSZVDCpph3g_Lz6mcJEs=",
+                    "uri": "https://destination-configuration.cfapps.eu10.hana.ondemand.com",
+                    "url": "https://sapit-customersupport-dev-mallard.authentication.eu10.hana.ondemand.com",
+                    "uaadomain": "authentication.eu10.hana.ondemand.com",
+                    "instanceid": "6e8067bf-b91a-47db-8052-f48c2e7815ad",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy3IfPe+Pr8HwdoZQ0f/H\n3cD7knv1HUcHIhoVxTajIdVssnfIDbVroD8iU8SN936VsXldPQZ7egq+nz0VRl7Q\n5/ZlYpU5tekpEfT0c1dwxPXi6e2VW4wTUNZLLLytgVNmy4xtgSMDx36wYDS0wE1q\nb7tTbGNMih3b/n7iVkK6T7c0TTVaIhp8d7ppyO9qJVkrG4Aou4gLUkRTewYuHskf\nrq8vyI1vNE7R0N4DG+ak5d5JuDGmXn2b5AtKKnV78MvEBJfDO2OWWjgnXLF3rnv0\ng0cfXV1UL4f8hBXNqL3XkFLrcMU4RyeAIgQ1qOCXcyN37zsEIoSHgfj8JhY3Gfnp\nbwIDAQAB\n-----END PUBLIC KEY-----",
+                    "identityzone": "sapit-customersupport-dev-mallard",
+                    "tenantid": "36b3db9d-3e64-42b5-88fb-5b7b39ec2833"
+                  }
+            }
+        ]
+    }
+}

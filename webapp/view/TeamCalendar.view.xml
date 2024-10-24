@@ -1,0 +1,58 @@
+<mvc:View controllerName="sap.coe.rpa.view.TeamCalendar" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:fb="sap.ui.comp.filterbar" xmlns:unified="sap.ui.unified" xmlns="sap.m" xmlns:reusePC="sap.coe.capacity.reuselib.controls.ResourcePlanningCalendar" xmlns:reuseOrg="sap.coe.capacity.reuselib.controls.OrgUnitSelect" xmlns:reuseEmp="sap.coe.capacity.reuselib.controls.EmployeeSelect" xmlns:reuseQual="sap.coe.capacity.reuselib.controls.QualificationSelect" xmlns:reuseTeam="sap.coe.capacity.reuselib.controls.ServiceTeamSelect">
+    <Page id="myStaffingPage" showHeader="false">
+        <l:VerticalLayout width="100%">
+            <fb:FilterBar id="filterBar" reset="onReset" search="onFilterBarSearchButtonPressed" clear=".VariantHelper.onFilterBarClear" showRestoreButton="true" showClearButton="true" showClearOnFB="true" filterContainerWidth="18rem" initialise=".onInitialiseFilterBar" class="sapUiSizeCompact" showFilterConfiguration="false">
+                <fb:filterItems>
+                    <fb:FilterItem name="D1" label="{i18n>VIEW_TEAMCALENDAR_DATE_RANGE}" visibleInFilterBar="false">
+                        <fb:control>
+                            <DateRangeSelection id="idDateRange" change="handleChange" editable="false" />
+                        </fb:control>
+                    </fb:FilterItem>
+                    <fb:FilterItem name="A0" label="{i18n>VIEW_TEAMCALENDAR_ORGUNIT_LABEL}">
+                        <fb:control>
+                            <reuseOrg:OrgUnitSelectComponent id="idForOrgId" onRetrieveData="retrieveOrgUnit" />
+                        </fb:control>
+                    </fb:FilterItem>
+                    <fb:FilterItem name="B0" label="{i18n>VIEW_TEAMCALENDAR_QUALIFICATIONS_LABEL}">
+                        <fb:control>
+                            <reuseQual:QualificationSelectComponent id="idForQualificationid" />
+                        </fb:control>
+                    </fb:FilterItem>
+                    <fb:FilterItem name="C0" label="{i18n>VIEW_TEAMCALENDAR_EMPLOYEEID_LABEL}">
+                        <fb:control>
+                            <reuseEmp:EmployeeSearchComponent id="idForEmpId" />
+                        </fb:control>
+                    </fb:FilterItem>
+                    <fb:FilterItem name="D0" label="{i18n>VIEW_TEAMCALENDAR_SERVICEAREA_LABEL}">
+                        <fb:control>
+                            <MultiComboBox id="idForServArea" selectionChange="handleSelectionChange" selectionFinish="handleSelectionFinish" width="500px" selectedKeys="{VariantFilterModel>/ServArea}" items="{
+                                path: 'ReuseModel>/ServiceAreaCategories',
+                                sorter: { path: 'name' }
+                                }">
+                                <core:Item key="{ReuseModel>id}" text="{ReuseModel>name}" />
+                            </MultiComboBox>
+                        </fb:control>
+                    </fb:FilterItem>
+                    <fb:FilterItem name="A5" label="{i18n>VIEW_TEAMCALENDAR_SERVICE_TEAM_LABEL}">
+                        <fb:control>
+                            <reuseTeam:ServiceTeamSelectComponent id="idServiceTeamForOrgId" filterPath="ServiceTeam" />
+                        </fb:control>
+                    </fb:FilterItem>
+                </fb:filterItems>
+            </fb:FilterBar>
+        </l:VerticalLayout>
+        <content>
+            <reusePC:ResourcePlanningCalendarComponent id="resourcePlanningCalendarId" onStartDateChangeComplete=".onStartDateChange"
+                     onCreateDialogConfirm=".createTimeAllocation" allocationCreated="onAllocationCreated" 
+                     showCreateTimeAllocation="false" />
+        </content>
+        <footer>
+            <Bar></Bar>
+            <Toolbar>
+                <ToolbarSpacer />
+                <Button text="{i18n>VIEW_TEAMCALENDAR_OPENCALENDARRPA_LINK}" press="onOpenResourceDemandList" />
+                <Button icon="sap-icon://action" press="onActionSheetPress" />
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

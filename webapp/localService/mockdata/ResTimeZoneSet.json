@@ -1,0 +1,19 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResTimeZoneSet('GMTUK')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResTimeZoneSet('GMTUK')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResTimeZone"
+            },
+            "Timezone": "GMTUK"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResTimeZoneSet('')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResTimeZoneSet('')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResTimeZone"
+            },
+            "Timezone": ""
+        }]
+    }
+}

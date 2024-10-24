@@ -1,0 +1,1785 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001517A09A381ED29BCDDD5D5888053E",
+            "PartnerNumber": "15818123",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "MORGAN",
+            "LastName": "FOX",
+            "EmpId": "I300226",
+            "FullName": "Mr. Morgan Fox",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353873779040",
+            "EMAIL": "MORGAN.FOX@SAP.COM",
+            "WORKPHONE": "+35314717764",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDDD5D5888053E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001517A09A381ED29BCDE02FDBAD853E",
+            "PartnerNumber": "15818148",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "IAN T.",
+            "LastName": "MURPHY",
+            "EmpId": "I300324",
+            "FullName": "Mr. Ian T. Murphy",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353879296658",
+            "EMAIL": "I.MURPHY@SAP.COM",
+            "WORKPHONE": "+35314717609",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE02FDBAD853E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001517A09A381ED29BCDE0884AC9253E",
+            "PartnerNumber": "15818151",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "IMANOL",
+            "LastName": "LAMPON",
+            "EmpId": "I300327",
+            "FullName": "Mr. Imanol Lampon",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "",
+            "EMAIL": "IMANOL.LAMPON@SAP.COM",
+            "WORKPHONE": "+35314717761",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED29BCDE0884AC9253E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001517A09A381ED392CEC61D680EBE39",
+            "PartnerNumber": "17480378",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "JOAQUIN",
+            "LastName": "TUR MASSANET",
+            "EmpId": "I305082",
+            "FullName": "Mr. Joaquin Tur Massanet",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353873788847",
+            "EMAIL": "JOAQUIN.TUR.MASSANET@SAP.COM",
+            "WORKPHONE": "+35314717345",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001517A09A381ED392CEC61D680EBE39',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "00199960EBD11EE1A0DA2D157665723A",
+            "PartnerNumber": "14172560",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "PEDRO",
+            "LastName": "CAETANO",
+            "EmpId": "I074150",
+            "FullName": "Mr. Pedro Caetano",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+3538762889930876288993",
+            "EMAIL": "PEDRO.CAETANO@SAP.COM",
+            "WORKPHONE": "+35314717374",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD11EE1A0DA2D157665723A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "00199960EBD51ED1A7AC247EB225D0ED",
+            "PartnerNumber": "14272316",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ROBERT",
+            "LastName": "MCDONNELL",
+            "EmpId": "I075141",
+            "FullName": "Mr. Robert McDonnell",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353872296896",
+            "EMAIL": "ROBERT.MCDONNELL@SAP.COM",
+            "WORKPHONE": "+35314717634",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='00199960EBD51ED1A7AC247EB225D0ED',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696611ED3AE8DFE02B99F2390",
+            "PartnerNumber": "18141735",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "MARK",
+            "LastName": "PONISI",
+            "EmpId": "I307483",
+            "FullName": "Mr. Mark Ponisi",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353874132660",
+            "EMAIL": "MARK.PONISI@SAP.COM",
+            "WORKPHONE": "+35314717577",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE02B99F2390',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696611ED3AE8DFE75384EA392",
+            "PartnerNumber": "18141750",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "DEREK",
+            "LastName": "O'HARA",
+            "EmpId": "I307333",
+            "FullName": "Mr. Derek O'Hara",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353871177845",
+            "EMAIL": "DEREK.O-HARA@SAP.COM",
+            "WORKPHONE": "+35314717571",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611ED3AE8DFE75384EA392',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696611EE4A6BFDD98F0D16E1A",
+            "PartnerNumber": "20987035",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "SANJU",
+            "LastName": "XAVIER",
+            "EmpId": "I316885",
+            "FullName": "Mr. Sanju Xavier",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353871130598",
+            "EMAIL": "SANJU.XAVIER@SAP.COM",
+            "WORKPHONE": "+35314718195",
+            "RPTASTDataSet": {
+                "results": [{
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B214741EE5B0F14FEE5535863B',StartDate=datetime'2016-06-14T23%3A00%3A00',EndDate=datetime'2016-06-22T22%3A59%3A59',ResGuid='001999D696611EE4A6BFDD98F0D16E1A')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B214741EE5B0F14FEE5535863B',StartDate=datetime'2016-06-14T23%3A00%3A00',EndDate=datetime'2016-06-22T22%3A59%3A59',ResGuid='001999D696611EE4A6BFDD98F0D16E1A')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.RPTASTData"
+                    },
+                    "OrgId": "",
+                    "ID": "C45444B214741EE5B0F14FEE5535863B",
+                    "BegDate": "\/Date(1465945200000)\/",
+                    "EndDate": "\/Date(1470088800000)\/",
+                    "ResGuid": "001999D696611EE4A6BFDD98F0D16E1A",
+                    "ConsultantName": "XAVIER SANJU",
+                    "Duration": "           0",
+                    "DurationUnit": "",
+                    "TimeZone": "GMTUK",
+                    "CallOff": "",
+                    "CustomerName": "",
+                    "DemandId": "",
+                    "ItemGuid": "",
+                    "ItemNo": "",
+                    "ItemDescription": "Holiday/Time in Lieu Request",
+                    "CreateBy": "",
+                    "QualificationId": "",
+                    "QualificationTxt": "",
+                    "ServArea": "",
+                    "EmpId": "I316885",
+                    "ServiceTeam": "",
+                    "Type": "TAL",
+                    "SHPName": "ZVAC",
+                    "CW": "24",
+                    "Country": "",
+                    "ScopeDate": null,
+                    "Rating": "",
+                    "Location": "Remote",
+                    "Red": "",
+                    "Green": "",
+                    "Blue": "",
+                    "ColorCode": "2",
+                    "ServiceTeamName": "",
+                    "HeaderGuid": ""
+                }]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696611EE4A6BFDD98F0D16E1A',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696951ED3BD9E3B27A00139BF",
+            "PartnerNumber": "18702294",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "SOHIL",
+            "LastName": "GURJAR",
+            "EmpId": "I309695",
+            "FullName": "Mr. Sohil Gurjar",
+            "Qualificationid": "",
+            "COUNTRY": "",
+            "CELLPHONE": "",
+            "EMAIL": "SOHIL.GURJAR@SAP.COM",
+            "WORKPHONE": "+35314718195",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3B27A00139BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696951ED3BD9E3C0DCDC379BF",
+            "PartnerNumber": "18702316",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ASIER",
+            "LastName": "BENITO URZANQUI",
+            "EmpId": "I309879",
+            "FullName": "Mr. Asier Benito Urzanqui",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353874000604",
+            "EMAIL": "ASIER.BENITO.URZANQUI@SAP.COM",
+            "WORKPHONE": "+35314718132",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED3BD9E3C0DCDC379BF',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696951ED5A790CDC26AF83626",
+            "PartnerNumber": "23587279",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ASHISH",
+            "LastName": "JAIN",
+            "EmpId": "I059437",
+            "FullName": "Mr. Ashish Jain",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353838340612",
+            "EMAIL": "ASHIS.JAIN@SAP.COM",
+            "WORKPHONE": "+35314718132",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951ED5A790CDC26AF83626',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696951EE3A38F38A9609D902B",
+            "PartnerNumber": "17878594",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "LUKE",
+            "LastName": "DICKENS",
+            "EmpId": "I306155",
+            "FullName": "Mr. Luke Dickens",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353874003597",
+            "EMAIL": "LUKE.DICKENS@SAP.COM",
+            "WORKPHONE": "+35314718011",
+            "RPTASTDataSet": {
+                "results": [{
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B2147A1ED5ACCA501984DF6242',StartDate=datetime'2016-06-12T23%3A00%3A00',EndDate=datetime'2016-06-17T22%3A59%3A59',ResGuid='001999D696951EE3A38F38A9609D902B')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B2147A1ED5ACCA501984DF6242',StartDate=datetime'2016-06-12T23%3A00%3A00',EndDate=datetime'2016-06-17T22%3A59%3A59',ResGuid='001999D696951EE3A38F38A9609D902B')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.RPTASTData"
+                    },
+                    "OrgId": "",
+                    "ID": "C45444B2147A1ED5ACCA501984DF6242",
+                    "BegDate": "\/Date(1469404800000)\/",
+                    "EndDate": "\/Date(1470088800000)\/",
+                    "ResGuid": "001999D696951EE3A38F38A9609D902B",
+                    "ConsultantName": "DICKENS LUKE",
+                    "Duration": "           0",
+                    "DurationUnit": "",
+                    "TimeZone": "GMTUK",
+                    "CallOff": "",
+                    "CustomerName": "",
+                    "DemandId": "",
+                    "ItemGuid": "",
+                    "ItemNo": "",
+                    "ItemDescription": "EMEA (Yes) US (Yes) On-site (Yes)",
+                    "CreateBy": "",
+                    "QualificationId": "",
+                    "QualificationTxt": "",
+                    "ServArea": "",
+                    "EmpId": "I306155",
+                    "ServiceTeam": "",
+                    "Type": "TAL",
+                    "SHPName": "ZAB",
+                    "CW": "24",
+                    "Country": "",
+                    "ScopeDate": null,
+                    "Rating": "",
+                    "Location": "Remote",
+                    "Red": "",
+                    "Green": "",
+                    "Blue": "",
+                    "ColorCode": "4",
+                    "ServiceTeamName": "",
+                    "HeaderGuid": ""
+                }]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A9609D902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696951EE3A38F38A960A4902B",
+            "PartnerNumber": "17878596",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "RUBEN",
+            "LastName": "DE LOS SANTOS PASTOR",
+            "EmpId": "I306159",
+            "FullName": "Mr. Ruben De Los Santos Pastor",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+3538724307670872430767",
+            "EMAIL": "RUBEN.DE.LOS.SANTOS.PASTOR@SAP.COM",
+            "WORKPHONE": "+35314718010",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696951EE3A38F38A960A4902B',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696991ED5ACD0E4975E973A6D",
+            "PartnerNumber": "23773300",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "SHARATH",
+            "LastName": "PRAKASH",
+            "EmpId": "I075886",
+            "FullName": "Mr. Sharath Prakash",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+3538943688500894368850",
+            "EMAIL": "SHARATH.PRAKASH@SAP.COM",
+            "WORKPHONE": "+35314718400",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696991ED5ACD0E4975E973A6D',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001999D696B51ED594C710B964A67E44",
+            "PartnerNumber": "22895099",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "PREM SUKH",
+            "LastName": "BISHNOI",
+            "EmpId": "I064567",
+            "FullName": "Mr. Prem Sukh Bishnoi",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353877591254",
+            "EMAIL": "PREM.SUKH.BISHNOI@SAP.COM",
+            "WORKPHONE": "+35314718357",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001999D696B51ED594C710B964A67E44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001CC4AB6D301ED0B1DB445213031A98",
+            "PartnerNumber": "13066937",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "CONOR",
+            "LastName": "MALONE",
+            "EmpId": "I069281",
+            "FullName": "Mr. Conor Malone",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353876735894",
+            "EMAIL": "CONOR.MALONE@SAP.COM",
+            "WORKPHONE": "+35314717790",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED0B1DB445213031A98',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "001CC4AB6D301ED1AA8C1C13B010CDF9",
+            "PartnerNumber": "14318166",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "JAMES",
+            "LastName": "FITZPATRICK",
+            "EmpId": "I075274",
+            "FullName": "Mr. James Fitzpatrick",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353876464154",
+            "EMAIL": "JAMES.FITZPATRICK@SAP.COM",
+            "WORKPHONE": "+35314717050",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='001CC4AB6D301ED1AA8C1C13B010CDF9',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "11D4761B5215124F9CD2E3D7934A4E71",
+            "PartnerNumber": "5307439",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "VISHAL",
+            "LastName": "SHALI",
+            "EmpId": "I043174",
+            "FullName": "Mr. mr. Vishal Shali",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353871985172",
+            "EMAIL": "VISHAL.SHALI@SAP.COM",
+            "WORKPHONE": "+35314717115",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='11D4761B5215124F9CD2E3D7934A4E71',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "18A9055A183E1ED1ACEC293DFB5B9191",
+            "PartnerNumber": "14359146",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "KEVIN",
+            "LastName": "MOLLOY",
+            "EmpId": "I075857",
+            "FullName": "Mr. Kevin Molloy",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353877750160",
+            "EMAIL": "K.MOLLOY@SAP.COM",
+            "WORKPHONE": "+35314717395",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC293DFB5B9191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "18A9055A183E1ED1ACEC2B42F86B3191",
+            "PartnerNumber": "14359180",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "JUDE",
+            "LastName": "HIGGINS",
+            "EmpId": "I076250",
+            "FullName": "Mr. Jude Higgins",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353879641114",
+            "EMAIL": "JUDE.HIGGINS@SAP.COM",
+            "WORKPHONE": "+35314717706",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A183E1ED1ACEC2B42F86B3191',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "18A9055A18401ED0AAEB278425BA5794",
+            "PartnerNumber": "12987376",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "FIONN",
+            "LastName": "KEANE",
+            "EmpId": "I068634",
+            "FullName": "Mr. Fionn Keane",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353876682995",
+            "EMAIL": "FIONN.KEANE@SAP.COM",
+            "WORKPHONE": "+35314717945",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='18A9055A18401ED0AAEB278425BA5794',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "274155A404425B4D80A47E85D3D7373E",
+            "PartnerNumber": "4570041",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "STEPHEN",
+            "LastName": "CARTER",
+            "EmpId": "I038575",
+            "FullName": "Mr. Stephen Carter",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353876892938",
+            "EMAIL": "STEPHEN.CARTER@SAP.COM",
+            "WORKPHONE": "+35314717585",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='274155A404425B4D80A47E85D3D7373E',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "28C76189477B414A92F71F5887237362",
+            "PartnerNumber": "829565",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "PETER",
+            "LastName": "WILD",
+            "EmpId": "I022967",
+            "FullName": "Mr. Peter Wild",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353868590548",
+            "EMAIL": "PETER.WILD@SAP.COM",
+            "WORKPHONE": "+35314717151",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='28C76189477B414A92F71F5887237362',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "3894A1B5D9A54E4685423823E5CA8FEC",
+            "PartnerNumber": "5551786",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "AARON",
+            "LastName": "SMYTH",
+            "EmpId": "I043611",
+            "FullName": "Mr. Aaron Smyth",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "",
+            "EMAIL": "AARON.SMYTH@SAP.COM",
+            "WORKPHONE": "+35314717472",
+            "RPTASTDataSet": {
+                "results": [{
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B213D21EE5AFF8184BA7029AB1',StartDate=datetime'2016-06-16T23%3A00%3A00',EndDate=datetime'2016-06-17T22%3A59%3A59',ResGuid='3894A1B5D9A54E4685423823E5CA8FEC')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/RPTASTDataSet(ID='C45444B213D21EE5AFF8184BA7029AB1',StartDate=datetime'2016-06-16T23%3A00%3A00',EndDate=datetime'2016-06-17T22%3A59%3A59',ResGuid='3894A1B5D9A54E4685423823E5CA8FEC')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.RPTASTData"
+                    },
+                    "OrgId": "",
+                    "ID": "C45444B213D21EE5AFF8184BA7029AB1",
+                    "BegDate": "\/Date(1466118000000)\/",
+                    "EndDate": "\/Date(1470088800000)\/",
+                    "ResGuid": "3894A1B5D9A54E4685423823E5CA8FEC",
+                    "ConsultantName": "SMYTH AARON",
+                    "Duration": "           0",
+                    "DurationUnit": "",
+                    "TimeZone": "GMTUK",
+                    "CallOff": "",
+                    "CustomerName": "",
+                    "DemandId": "",
+                    "ItemGuid": "",
+                    "ItemNo": "",
+                    "ItemDescription": "Leave",
+                    "CreateBy": "",
+                    "QualificationId": "",
+                    "QualificationTxt": "",
+                    "ServArea": "",
+                    "EmpId": "I043611",
+                    "ServiceTeam": "",
+                    "Type": "TAL",
+                    "SHPName": "ZVAC",
+                    "CW": "24",
+                    "Country": "",
+                    "ScopeDate": null,
+                    "Rating": "",
+                    "Location": "Remote",
+                    "Red": "",
+                    "Green": "",
+                    "Blue": "",
+                    "ColorCode": "2",
+                    "ServiceTeamName": "",
+                    "HeaderGuid": ""
+                }]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='3894A1B5D9A54E4685423823E5CA8FEC',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "43AFE5131EE83C4BAA834594E93C4773",
+            "PartnerNumber": "30296",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "LOUISE",
+            "LastName": "CLANCY",
+            "EmpId": "I022529",
+            "FullName": "Ms. Louise Clancy",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+3538793929180879392918",
+            "EMAIL": "LOUISE.CLANCY@SAP.COM",
+            "WORKPHONE": "+35314719878",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='43AFE5131EE83C4BAA834594E93C4773',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "56C016DC465A774DAC43FA1436A06D44",
+            "PartnerNumber": "10926",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ANNEMARIE",
+            "LastName": "MULLANEY",
+            "EmpId": "I020126",
+            "FullName": "Ms. Annemarie Mullaney",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "",
+            "EMAIL": "ANNEMARIE.MULLANEY@SAP.COM",
+            "WORKPHONE": "+35314718099",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='56C016DC465A774DAC43FA1436A06D44',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "828612BD5C1A4B41BDF8BA589C8C03B0",
+            "PartnerNumber": "829482",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "SICCO",
+            "LastName": "LANSU",
+            "EmpId": "I016558",
+            "FullName": "Mr. Sicco Lansu",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353353863800768",
+            "EMAIL": "SICCO.LANSU@SAP.COM",
+            "WORKPHONE": "+35314717146",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='828612BD5C1A4B41BDF8BA589C8C03B0',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "8C195F0C7F15B24186B9C5A12D8E1133",
+            "PartnerNumber": "10821",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "PAUL",
+            "LastName": "LOUGHRAN",
+            "EmpId": "I014804",
+            "FullName": "Mr. Paul Loughran",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353860406276",
+            "EMAIL": "PAUL.LOUGHRAN@SAP.COM",
+            "WORKPHONE": "+35314717276",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='8C195F0C7F15B24186B9C5A12D8E1133',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "C45444B214741EE59489DB3A576B6D34",
+            "PartnerNumber": "22896704",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "SUJAY",
+            "LastName": "KULKARNI",
+            "EmpId": "I058440",
+            "FullName": "Mr. Sujay Kulkarni",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353879562782",
+            "EMAIL": "SUJAY.KULKARNI@SAP.COM",
+            "WORKPHONE": "+35314718352",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B214741EE59489DB3A576B6D34',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "C45444B2147A1EE5B4F10094AA0D7ECD",
+            "PartnerNumber": "23903067",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ALFONSO",
+            "LastName": "BLESA",
+            "EmpId": "I327678",
+            "FullName": "Mr. Alfonso Blesa",
+            "Qualificationid": "",
+            "COUNTRY": "",
+            "CELLPHONE": "",
+            "EMAIL": "ALFONSO.BLESA@SAP.COM",
+            "WORKPHONE": "+35314718352",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "C45444B2147A1EE5B4F10094AA0D7ECD",
+            "PartnerNumber": "23903067",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469404800000)\/",
+            "EndDate": "\/Date(1470088800000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ALFONSO",
+            "LastName": "BLESA",
+            "EmpId": "I327678",
+            "FullName": "Mr. Alfonso Blesa",
+            "Qualificationid": "",
+            "COUNTRY": "",
+            "CELLPHONE": "",
+            "EMAIL": "ALFONSO.BLESA@SAP.COM",
+            "WORKPHONE": "+35314718352",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        } , {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "C45444B2147A1EE5B4F10094AA0D7ECD",
+            "PartnerNumber": "23903067",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469404800000)\/",
+            "EndDate": "\/Date(1469404800000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "ALFONSO",
+            "LastName": "BLESA",
+            "EmpId": "I327678",
+            "FullName": "Mr. Alfonso Blesa",
+            "Qualificationid": "",
+            "COUNTRY": "",
+            "CELLPHONE": "",
+            "EMAIL": "ALFONSO.BLESA@SAP.COM",
+            "WORKPHONE": "+35314718352",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='C45444B2147A1EE5B4F10094AA0D7ECD',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        },{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Resource"
+            },
+            "ResGuid": "DC7EBB33C5E9D3F1BB6100132169A275",
+            "PartnerNumber": "6212146",
+            "OrgId": "30015950",
+            "ServArea": "",
+            "AltServArea": "",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "Timeframe": "",
+            "ResType": "",
+            "FirstName": "KATARZYNA",
+            "LastName": "URBAS",
+            "EmpId": "I047219",
+            "FullName": "Ms. Katarzyna Urbas",
+            "Qualificationid": "",
+            "COUNTRY": "IE",
+            "CELLPHONE": "+353870532469",
+            "EMAIL": "KATARZYNA.URBAS@SAP.COM",
+            "WORKPHONE": "+35314717586",
+            "RPTASTDataSet": {
+                "results": [
+
+                ]
+            },
+            "QualificationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/QualificationSet"
+                }
+            },
+            "AssignmentSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/AssignmentSet"
+                }
+            },
+            "TimeAllocationSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/TimeAllocationSet"
+                }
+            },
+            "SoftbookingSet": {
+                "__deferred": {
+                    "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResourceList(ResGuid='DC7EBB33C5E9D3F1BB6100132169A275',BegDate=datetime'2016-06-12T00%3A00%3A00',EndDate=datetime'2016-06-19T00%3A00%3A00')/SoftbookingSet"
+                }
+            }
+        }]
+    }
+}

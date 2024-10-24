@@ -1,0 +1,21 @@
+<!-- Copyright (C) 2009-2014 SAP SE or an SAP affiliate company. All rights 
+	reserved -->
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<Dialog title="{i18n>FRAGMENT_CALENDARSETTINGS_TITLE}" 
+		contentWidth="650px">
+		<Title text="{i18n>FRAGMENT_CALENDARSETTINGS_CALENDARINTERVAL}" />
+		<RadioButtonGroup id="personCreateGender"
+							selectedIndex="1" columns="3"
+							select="onCalendarIntervalChange" >
+			<buttons>
+				<RadioButton text="{i18n>FRAGMENT_CALENDARSETTINGS_CALENDARDISPLAY_2WEEKS}" />
+				<RadioButton text="{i18n>FRAGMENT_CALENDARSETTINGS_CALENDARDISPLAY_4WEEKS}" />
+				<RadioButton text="{i18n>FRAGMENT_CALENDARSETTINGS_CALENDARDISPLAY_6WEEKS}" />
+			</buttons>
+		</RadioButtonGroup>
+		<beginButton>
+			<Button id="btnClose" text="{i18n>FRAGMENT_CALENDARSETTINGS_BUTTON_OK}" press="onCloseDialog" />
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

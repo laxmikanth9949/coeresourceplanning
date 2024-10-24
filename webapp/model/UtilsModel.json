@@ -1,0 +1,194 @@
+
+{
+	"TimeAllocationCategories": [
+		{
+		    "CategoryID": "ZAB",
+			"Category": "Only Remote Service Delivery",
+			"Description": "Description",
+			"SortableKey": "0"
+        },
+        {
+		    "CategoryID": "ZBO1",
+			"Category": "Backoffice Duty",
+			"Description": "Description",
+			"SortableKey": "1"
+		},
+		{
+		    "CategoryID": "ZOB",
+			"Category": "Office Blocked",
+			"Description": "Description",
+			"SortableKey": "2"
+		},
+		{
+		    "CategoryID": "ZTR",
+			"Category": "Training",
+			"Description": "Description",
+			"SortableKey": "3"
+		},
+		{
+		    "CategoryID": "ZVAC",
+			"Category": "Absence",
+			"Description": "Description",
+			"SortableKey": "4"
+		},
+		{
+		    "CategoryID": "ZEOD",
+			"Category": "EOD",
+			"Description": "Description",
+			"SortableKey": "5"
+		},
+		{
+		    "CategoryID": "ZESC",
+			"Category": "Escalation",
+			"Description": "Description",
+			"SortableKey": "6"
+		},
+		{
+		    "CategoryID": "ZPRW",
+			"Category": "Project Work",
+			"Description": "Description",
+			"SortableKey": "7"
+		},
+		{
+		    "CategoryID": "ZDEV",
+			"Category": "Development",
+			"Description": "Description",
+			"SortableKey": "8"
+		},
+		{
+		    "CategoryID": "ZTS",
+			"Category": "Tentative Service",
+			"Description": "Description",
+			"SortableKey": "9"
+		}
+	],
+	"ServiceAreaCategories": 
+	[
+					{
+						"id": "ZEM",
+						"name": "Delivery Team CoE EMEA"
+					},
+					{
+						"id": "ZAN",
+						"name": "Delivery Team CoE ANZ"						
+					},
+					{
+						"id": "ZAS",
+						"name": "Delivery Team CoE Asia"						
+					},
+					{
+						"id": "ZIN",
+						"name": "Delivery Team CoE India"						
+					},
+					{
+						"id": "ZJP",
+						"name": "Delivery Team CoE JP"						
+					},
+					{
+						"id": "ZLA",
+						"name": "Delivery Team CoE LA"						
+					},
+					{
+						"id": "ZNA",
+						"name": "Delivery Team CoE North Asia"						
+					},
+					{
+						"id": "ZSA",
+						"name": "Delivery Team CoE South Asia"						
+					},
+					{
+						"id": "ZUS",
+						"name": "Delivery Team CoE US"						
+					}
+		],
+		"CodeColour": 
+		{
+		    "ZVAC": {
+		    	"Type": "Type03",
+		    	"Category": "Absence",
+		    	"CreatedBy": "Team Member"
+		    	},
+		    "ZOB": {
+		    	"Type": "Type01",
+		    	"Category": "Office Blocked",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZBO1": {
+		    	"Type": "Type01",
+		    	"Category": "Backoffice Duty",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZAB": {
+		    	"Type": "Type05",
+		    	"Category": "Only Remote Service Delivery",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZEOD": {
+		    	"Type": "Type01",
+		    	"Category": "EOD",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZESC": {
+		    	"Type": "Type01",
+		    	"Category": "Escalation",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZPRW": {
+		    	"Type": "Type01",
+		    	"Category": "Project Work",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZDEV": {
+		    	"Type": "Type01",
+		    	"Category": "Development",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZTS": {
+		    	"Type": "Type07",
+		    	"Category": "Tentative Service",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZTREE": {
+		    	"Type": "Type05",
+		    	"Category": "Trainer",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZTRER": {
+		    	"Type": "Type05",
+		    	"Category": "Trainee",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "ZTR": {
+		    	"Type": "Type05",
+		    	"Category": "Training ",
+		    	"CreatedBy": "Team Member"		    	
+		    	},
+		    "Remote": {
+		    	"Type": "Type08",
+		    	"Category": "Remote Service",
+		    	"CreatedBy": "Team Member Manager"		    	
+		    	},
+		    "Onsite": {
+		    	"Type": "Type06",
+		    	"Category": "Onsite Service",
+		    	"CreatedBy": "Team Member Manager"
+		    	},
+		    "Softbooking": {
+		    	"Type": "Type07",
+		    	"Category": "Softbooking",
+		    	"CreatedBy": "Team Member Manager"
+		    	},
+		    "Team Lead": {
+		    	"Type": "Type06",
+		    	"Category": "Not Available Yet",
+		    	"CreatedBy": "Not Available Yet"
+		    	},
+		    "Team Membe": {
+		    	"Type": "Type06",
+		    	"Category": "Not Available Yet",
+		    	"CreatedBy": "Not Available Yet"
+		    	}
+
+        }       
+	
+}

@@ -1,0 +1,50 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SearchVariants(ApplicationId='SAP.COE.RPAPilot03',VariantSetName='TEAM_CALPilot03')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SearchVariants(ApplicationId='SAP.COE.RPAPilot03',VariantSetName='TEAM_CALPilot03')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.SearchVariant"
+            },
+            "ApplicationId": "SAP.COE.RPAPilot03",
+            "VariantSetName": "TEAM_CALPilot03",
+            "VariantDetails": {
+                "results": [{
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/VariantDetails(guid'089E016C-A242-1ED6-8BAA-2150D961461A')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/VariantDetails(guid'089E016C-A242-1ED6-8BAA-2150D961461A')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.VariantData"
+                    },
+                    "VariantId": "089E016C-A242-1ED6-8BAA-2150D961461A",
+                    "ApplicationId": "SAP.COE.RPAPilot03",
+                    "VariantSetName": "TEAM_CALPilot03",
+                    "VariantDisplayName": "Default",
+                    "OwnerId": "I327678",
+                    "VariantContent": "{\"OrgId\":[{\"id\":\"30015950\",\"name\":\"COE Ireland HANA\"}],\"30015950\":true}",
+                    "Scope": "LOCAL",
+                    "IsDefault": true,
+                    "Editable": true,
+                    "ExecuteOnSelect": false,
+                    "IsSharing": false
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/VariantDetails(guid'089E016C-A3C2-1ED6-8CAA-270E5C164E20')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/VariantDetails(guid'089E016C-A3C2-1ED6-8CAA-270E5C164E20')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.VariantData"
+                    },
+                    "VariantId": "089E016C-A3C2-1ED6-8CAA-270E5C164E20",
+                    "ApplicationId": "SAP.COE.RPAPilot03",
+                    "VariantSetName": "TEAM_CALPilot03",
+                    "VariantDisplayName": "Me",
+                    "OwnerId": "I327678",
+                    "VariantContent": "{\"OrgId\":[],\"EmpId\":[{\"id\":\"I327678\",\"name\":\"I327678\"}],\"I327678\":true}",
+                    "Scope": "LOCAL",
+                    "IsDefault": false,
+                    "Editable": true,
+                    "ExecuteOnSelect": false,
+                    "IsSharing": false
+                }]
+            }
+        }]
+    }
+}

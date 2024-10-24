@@ -1,0 +1,501 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008194')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008194')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008194",
+            "ServiceTeamName": "RSD DELIVERY TEAM DRESDEN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008199')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008199')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008199",
+            "ServiceTeamName": "RSD DELIVERY TEAM COMPUTACENTER (NOT IN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008201')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008201')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008201",
+            "ServiceTeamName": "DELIVERY TEAM GENERAL LEDGER MIGRATION"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008202')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008202')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008202",
+            "ServiceTeamName": "RSD DELIVERY TEAM DUBLIN1"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008203')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008203')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008203",
+            "ServiceTeamName": "RSD DELIVERY TEAM DUBLIN2"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008204')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008204')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008204",
+            "ServiceTeamName": "RSD DELIVERY TEAM DUBLIN3"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008205')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008205')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008205",
+            "ServiceTeamName": "RSD DELIVERY TEAM DUBLIN4"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008334')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008334')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008334",
+            "ServiceTeamName": "MCC PRODUCTION SUPPORT EMEA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008607')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008607')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008607",
+            "ServiceTeamName": "RSD DELIVERY TEAM CORPORATE"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008809')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008809')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008809",
+            "ServiceTeamName": "RSD DELIVERY TEAM US"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008811')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008811')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008811",
+            "ServiceTeamName": "RSD DELIVERY TEAM LA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008813')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008813')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008813",
+            "ServiceTeamName": "RSD DELIVERY TEAM CHINA EN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008815')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008815')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008815",
+            "ServiceTeamName": "RSD DELIVERY TEAM CHINA JP"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008818')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008818')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008818",
+            "ServiceTeamName": "RSD DELIVERY TEAM MDM (NOT IN USE)"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008832')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008832')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008832",
+            "ServiceTeamName": "RSD DELIVERY TEAM SRM (NOT IN USE)"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008833')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008833')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008833",
+            "ServiceTeamName": "RSD DELIVERY TEAM UWS"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008985')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50008985')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50008985",
+            "ServiceTeamName": "RSD DELIVERY TEAM TEST CORPORATE"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009257')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009257')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50009257",
+            "ServiceTeamName": "DELIVERY TEAM COE EMEA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009861')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009861')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50009861",
+            "ServiceTeamName": "GSCI TEAM EMEA BENELUX"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009869')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009869')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50009869",
+            "ServiceTeamName": "GSCI TEAM US, CA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009877')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50009877')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50009877",
+            "ServiceTeamName": "GSCI TEAM APA JAPAN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50025384')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50025384')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50025384",
+            "ServiceTeamName": "DELIVERY TEAM COE US"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026058')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026058')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026058",
+            "ServiceTeamName": "DELIVERY TEAM COE JP"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026074')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026074')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026074",
+            "ServiceTeamName": "DELIVERY TEAM COE ANZ"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026079')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026079')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026079",
+            "ServiceTeamName": "DELIVERY TEAM COE ASIA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026113')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026113')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026113",
+            "ServiceTeamName": "DELIVERY TEAM COE LA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026136')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026136')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026136",
+            "ServiceTeamName": "RSD DELIVERY TEAM MALAYSIA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026542')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026542')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026542",
+            "ServiceTeamName": "DELIVERY TEAM COE EMEA IRELAND"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026897')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50026897')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50026897",
+            "ServiceTeamName": "RSD DELIVERY TEAM BIT 1"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031432')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031432')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50031432",
+            "ServiceTeamName": "RSD DELIVERY TEAM INDIA 1"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031434')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031434')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50031434",
+            "ServiceTeamName": "RSD DELIVERY TEAM INDIA 2"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031658')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50031658')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50031658",
+            "ServiceTeamName": "RSD DELIVERY TEAM GTS (NOT IN USE)"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50042432')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50042432')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50042432",
+            "ServiceTeamName": "DELIVERY TEAM COE ST. PETERSBURG"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50044083')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50044083')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50044083",
+            "ServiceTeamName": "RSD DELIVERY TEAM BIT 2"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50044088')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50044088')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50044088",
+            "ServiceTeamName": "RSD DELIVERY TEAM BIT 3"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50067884')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50067884')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50067884",
+            "ServiceTeamName": "DELIVERY TEAM COE BIA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075432')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075432')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50075432",
+            "ServiceTeamName": "ESA CENTER EMEA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075433')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075433')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50075433",
+            "ServiceTeamName": "ESA CENTER NA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075434')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50075434')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50075434",
+            "ServiceTeamName": "ESA CENTER APJ"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50088617')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50088617')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50088617",
+            "ServiceTeamName": "RSD DELIVERY TEAM MALAYSIA BO"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50093535')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50093535')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50093535",
+            "ServiceTeamName": "RSD SECURE CUSTOMERS DRESDEN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50101284')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50101284')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50101284",
+            "ServiceTeamName": "AIE BACKOFFICE"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50106586')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50106586')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50106586",
+            "ServiceTeamName": "RSD DELIVERY TEAM SITUATION ROOM DUBLIN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50113484')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50113484')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50113484",
+            "ServiceTeamName": "US GOVERNMENT SUPPORT & SERVICE"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50120864')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50120864')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50120864",
+            "ServiceTeamName": "ESA CENTER LA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50124580')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50124580')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50124580",
+            "ServiceTeamName": "DELIVERY TEAM COE INDIA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50124581')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50124581')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50124581",
+            "ServiceTeamName": "DELIVERY TEAM COE NORTH ASIA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50126132')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50126132')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50126132",
+            "ServiceTeamName": "PCOE DELIVERY TEAM PSD"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50140361')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50140361')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50140361",
+            "ServiceTeamName": "COE RSD DELIVERY IRELAND"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50140607')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50140607')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50140607",
+            "ServiceTeamName": "COE RSD DELIVERY CHINA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50146439')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50146439')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50146439",
+            "ServiceTeamName": "COE CN INTERNS DALIAN"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50148010')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50148010')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50148010",
+            "ServiceTeamName": "DELIVERY TEAM CONSULTING EMEA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50148013')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50148013')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50148013",
+            "ServiceTeamName": "DELIVERY TEAM IMS"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50149559')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50149559')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50149559",
+            "ServiceTeamName": "DELIVERY TEAM EMEA 3RD PARTY"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150369')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150369')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50150369",
+            "ServiceTeamName": "DELIVERY TEAM CONSULTING US"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150370')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150370')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50150370",
+            "ServiceTeamName": "DELIVERY TEAM CONSULTING LA"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150371')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150371')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50150371",
+            "ServiceTeamName": "DELIVERY TEAM CONSULTING APJ"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150375')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150375')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50150375",
+            "ServiceTeamName": "DELIVERY TEAM US 3RD PARTY"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150957')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50150957')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50150957",
+            "ServiceTeamName": "DELIVERY TEAM COE EMEA - POSTP. SERVICES"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50156617')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50156617')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50156617",
+            "ServiceTeamName": "DELIVERY TEAM COE NORTH ASIA - ON-HOLD"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50167523')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50167523')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50167523",
+            "ServiceTeamName": "DELIVERY TEAM CDP"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50206770')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResServiceTeamSet('50206770')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResServiceTeam"
+            },
+            "ServiceTeamID": "50206770",
+            "ServiceTeamName": "DELIVERY TEAM S/4 HANA EMEA"
+        }]
+    }
+}

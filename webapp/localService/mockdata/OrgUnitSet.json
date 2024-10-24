@@ -1,0 +1,228 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30015950')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30015950')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.OrgUnit"
+            },
+            "EmpId": "I327678",
+            "OrgId": "30015950",
+            "HigherUnt": "30014475",
+            "CurUnit": "30015950",
+            "MangeLevel": "2",
+            "OrgText": "COE Ireland HANA",
+            "CurUnitText": "",
+            "SubOrgUnitSet": {
+                "results": [
+
+                ]
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='',OrgId='')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='',OrgId='')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.OrgUnit"
+            },
+            "EmpId": "",
+            "OrgId": "",
+            "HigherUnt": "00000000",
+            "CurUnit": "00000000",
+            "MangeLevel": "2",
+            "OrgText": "COE Ireland HANA",
+            "CurUnitText": "",
+            "SubOrgUnitSet": {
+                "results": [
+
+                ]
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30014475')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30014475')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.OrgUnit"
+            },
+            "EmpId": "I327678",
+            "OrgId": "30014475",
+            "HigherUnt": "30052945",
+            "CurUnit": "30015950",
+            "MangeLevel": "2",
+            "OrgText": "CoE Ireland",
+            "CurUnitText": "COE Ireland HANA",
+            "SubOrgUnitSet": {
+                "results": [{
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30012415')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30012415')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30012415",
+                    "OrgText": "COE Technology/Basis"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30012419')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30012419')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30012419",
+                    "OrgText": "COE BW"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30015949')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30015949')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30015949",
+                    "OrgText": "COE Financials/HCM"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30015950')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30015950')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30015950",
+                    "OrgText": "COE Ireland HANA"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30078229')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30078229')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30078229",
+                    "OrgText": "COE Mobile/UX/Cloud"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30078230')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30078230')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30078230",
+                    "OrgText": "COE ALM/RSLaF"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30091552')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30091552')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30091552",
+                    "OrgText": "COE Integration"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30093329')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30093329')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30093329",
+                    "OrgText": "COE EP/PI"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30097315')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30097315')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30097315",
+                    "OrgText": "Run SAP"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30097316')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30097316')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30097316",
+                    "OrgText": "CoE hybris"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101183')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101183')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30101183",
+                    "OrgText": "CoE Enterprise Support"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101184')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101184')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30101184",
+                    "OrgText": "CoE Analytics"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101185')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101185')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30101185",
+                    "OrgText": "CoE Manufacturing"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101200')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101200')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30101200",
+                    "OrgText": "CoE Order Management"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101366')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30101366')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30101366",
+                    "OrgText": "COE UI Development"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30106280')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30106280')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30106280",
+                    "OrgText": "CoE Insurance"
+                }, {
+                    "__metadata": {
+                        "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30106295')",
+                        "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/SubOrgUnitSet(EmpId='',OrgId='30106295')",
+                        "type": "ZS_AGS_DASHBOARDS_SRV.SubOrgUnit"
+                    },
+                    "EmpId": "I327678",
+                    "OrgId": "30106295",
+                    "OrgText": "FS Insurance"
+                }]
+            }
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30101366')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/OrgUnitSet(EmpId='I327678',OrgId='30101366')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.OrgUnit"
+            },
+            "EmpId": "I327678",
+            "OrgId": "30101366",
+            "HigherUnt": "30014475",
+            "CurUnit": "30015950",
+            "MangeLevel": "2",
+            "OrgText": "COE UI Development",
+            "CurUnitText": "COE Ireland HANA",
+            "SubOrgUnitSet": {
+                "results": [
+
+                ]
+            }
+        }]
+    }
+}

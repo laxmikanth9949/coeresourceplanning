@@ -1,0 +1,172 @@
+{
+  "_version": "1.4.0",
+  "sap.cloud": {
+    "service": "coeresourceplanning",
+    "public": true
+  },
+  "sap.app": {
+    "_version": "1.4.0",
+    "id": "sap.coe.rpa",
+    "type": "application",
+    "i18n": "i18n/messageBundle.properties",
+    "title": "{{APPLICATION_TITLE_PERSONAL_CALENDAR}}",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "crossNavigation": {
+      "inbounds": {
+          "intent1": {
+              "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+              },
+              "semanticObject": "resourceplanning",
+              "action": "display",
+              "title": "{{flpTitle}}",
+              "subTitle": ""
+          }
+      }
+  },
+    "dataSources": {
+      "mainService": {
+        "uri": "sap/opu/odata/sap/ZS_RPA_GATEWAY_SRV/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0",
+          "localUri": "localService/metadata.xml"
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "sap-icon://task",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "supportedThemes": [
+      "sap_belize",
+      "sap_bluecrystal"
+    ]
+  },
+  "sap.ui5": {
+    "services": {
+      "ShellUIService": {
+        "factoryName": "sap.ushell.ui5service.ShellUIService"
+      }
+    },
+    "rootView": {
+      "viewName": "sap.coe.rpa.view.Main",
+      "type": "XML",
+      "id": "fioriContent"
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/fullScreenStyles.css"
+        }
+      ]
+    },
+    "dependencies": {
+      "minUI5Version": "1.40.0",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.40.0"
+        },
+        "sap.m": {
+          "minVersion": "1.40.0"
+        },
+        "sap.ui.layout": {
+          "minVersion": "1.40.0"
+        },
+        "sap.ushell": {
+          "minVersion": "1.40.0"
+        },
+        "sap.ui.unified": {
+          "lazy": false
+        },
+        "sap.collaboration": {
+          "lazy": false
+        },
+        "sap.ui.comp": {
+          "lazy": false
+        },
+        "sap.uxap": {
+          "lazy": false
+        }
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "preload": false,
+        "settings": {
+          "bundleName": "sap.coe.rpa.i18n.messageBundle"
+        }
+      },
+      "": {
+        "dataSource": "mainService",
+        "preload": true,
+        "settings": {
+          "useBatch": false,
+          "defaultUpdateMethod": "PUT"
+        }
+      }
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "sap.coe.rpa.view",
+        "async": true,
+        "targetAggregation": "pages",
+        "controlId": "fioriContent",
+        "controlAggregation": "pages",
+        "clearTarget": false
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "myStaffing",
+          "target": [
+            "myStaffing"
+          ]
+        },
+        {
+          "pattern": "teamCalendar",
+          "name": "teamCalendar",
+          "target": [
+            "teamCalendar"
+          ]
+        }
+      ],
+      "targets": {
+        "myStaffing": {
+          "viewName": "MyStaffing",
+          "viewId": "myStaffing"
+        },
+        "teamCalendar": {
+          "viewName": "TeamCalendar",
+          "viewId": "teamCalendar"
+        }
+      }
+    }
+  },
+  "sap.platform.hcp": {
+    "uri": "webapp",
+    "_version": "1.1.0"
+  }
+}

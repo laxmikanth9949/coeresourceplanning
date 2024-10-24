@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="handleConfirm"
+		resetFilters="onReset">
+		<filterItems>
+			<ViewSettingsFilterItem
+				text="{i18n>FRAGMENT_CALENDARFILTER_FILTERITEM_HEADER}"
+				key="WeightMeasure"
+				multiSelect="false">
+				<items>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ONSITE}" key="AssignmentSet/results/___EQ___Onsite___X___/ServiceFlag" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_REMOTE}" key="AssignmentSet/results/___EQ___Onsite___X___/Remote"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ABSENCE}" key="TimeAllocationSet/results/___EQ___ZVAC___X___/TimespecType"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_EOD}" key="TimeAllocationSet/results/___EQ___ZEOD___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_BACKOFFICEDUTY}" key="TimeAllocationSet/results/___EQ___ZBO1___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ONLYREM.SERVICEDEL.POSSIBLE}" key="TimeAllocationSet/results/___EQ___ZAB___X___/TimespecType"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_OFFICEBLOCKED}" key="TimeAllocationSet/results/___EQ___ZOB___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_TRAINING}" key="TimeAllocationSet/results/___EQ___ZTR___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ESCALATION}" key="TimeAllocationSet/results/___EQ___ZESC___X___/TimespecType"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_PROJECTWORK}" key="TimeAllocationSet/results/___EQ___ZPRW___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_DEVELOPMENT}" key="TimeAllocationSet/results/___EQ___ZDEV___X___/TimespecType" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_TENTATIVESERVICE}" key="TimeAllocationSet/results/___EQ___ZTS___X___/TimespecType" />
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

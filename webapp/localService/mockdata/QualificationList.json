@@ -1,0 +1,761 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100047',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100047',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100047",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Applica",
+            "QDescriptionSText": "OSD: Application",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100048',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100048',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100048",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Technol",
+            "QDescriptionSText": "OSD: Technology",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100075',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100075',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100075",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD TL Gener",
+            "QDescriptionSText": "OSD TL General",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100125',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100125',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100125",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Securit",
+            "QDescriptionSText": "OSD: Security",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100126',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100126',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100126",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA",
+            "QDescriptionSText": "OSD: HANA",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100300',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100300',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100300",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Partner",
+            "QDescriptionSText": "OSD: Partner Products",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100325',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100325',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100325",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Backoff",
+            "QDescriptionSText": "OSD: Backoffice",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100376',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100376',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100376",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "EGI Qualific",
+            "QDescriptionSText": "EGI Qualifications",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100400',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100400',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100400",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "E2E Qualific",
+            "QDescriptionSText": "E2E Qualifications",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100025",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100026',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100026',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100026",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM",
+            "QDescriptionSText": "OSD: CRM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100027',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100027',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100027",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: SRM",
+            "QDescriptionSText": "OSD: SRM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100028',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100028',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100028",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: PLM",
+            "QDescriptionSText": "OSD: PLM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100029',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100029',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100029",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: SCM",
+            "QDescriptionSText": "OSD: SCM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100030',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100030',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100030",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: ERP / E",
+            "QDescriptionSText": "OSD: ERP / ECC",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100031',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100031',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100031",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HCM",
+            "QDescriptionSText": "OSD: HCM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100032',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100032',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100032",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Enterpr",
+            "QDescriptionSText": "OSD: Enterprise Performance  Mgmt (EPM)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100033',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100033',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100033",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: BI Busi",
+            "QDescriptionSText": "OSD: BI Business Inteligence",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100036',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100036',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100036",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Netweav",
+            "QDescriptionSText": "OSD: Netweaver",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100041',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100041',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100041",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Industr",
+            "QDescriptionSText": "OSD: Industry Solutions",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100044',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100044',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100044",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: xApps",
+            "QDescriptionSText": "OSD: xApps",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100045',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100045',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100045",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Others",
+            "QDescriptionSText": "OSD: Others",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100152',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100152',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100152",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Enginee",
+            "QDescriptionSText": "OSD: Engineering Services (ESRV)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100350',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93100350',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93100350",
+            "QOTYPE": "QK",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: User Ex",
+            "QDescriptionSText": "OSD: User Experience (UX)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100047",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200350',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200350',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200350",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Mob",
+            "QDescriptionSText": "OSD: CRM Mobile Sales/ Service",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200352',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200352',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200352",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Mid",
+            "QDescriptionSText": "OSD: CRM Mid.Ware/Gr.Ware/MasterData",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200354',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200354',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200354",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Int",
+            "QDescriptionSText": "OSD: CRM Web Channel",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200355',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200355',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200355",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Sal",
+            "QDescriptionSText": "OSD: CRM Sales (online)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200356',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200356',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200356",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Ser",
+            "QDescriptionSText": "OSD: CRM Service (online)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200358',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200358',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200358",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Bil",
+            "QDescriptionSText": "OSD: CRM Billing",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200361',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200361',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200361",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Int",
+            "QDescriptionSText": "OSD: CRM Interaction Center (IC/ IC WEB)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200362',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200362',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200362",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Mar",
+            "QDescriptionSText": "OSD: CRM Marketing & Campaign Mgmt",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200363',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200363',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200363",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Tra",
+            "QDescriptionSText": "OSD: CRM Trade Promotion Mgmt (TPM)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200364',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200364',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200364",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Loy",
+            "QDescriptionSText": "OSD: CRM Loyalty Management",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200927',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200927',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200927",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM Lea",
+            "QDescriptionSText": "OSD: CRM Leasing",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201026',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201026',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93201026",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: CRM DVM",
+            "QDescriptionSText": "OSD: CRM DVM",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100026",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200630',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200630',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200630",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA ne",
+            "QDescriptionSText": "OSD: HANA DB",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200631',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200631',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200631",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA De",
+            "QDescriptionSText": "OSD: HANA Design & Application",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200632',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200632',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200632",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA Tu",
+            "QDescriptionSText": "OSD: HANA Tuning (SQL)",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200633',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93200633',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93200633",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA ET",
+            "QDescriptionSText": "OSD: HANA ETL",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201162',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201162',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93201162",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA SL",
+            "QDescriptionSText": "OSD: HANA SLT",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201375',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201375',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93201375",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: Suite o",
+            "QDescriptionSText": "OSD: Suite on HANA",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }, {
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201926',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/QualificationList(QOID='93201926',BegDate=datetime'1900-01-01T00%3A00%3A00',EndDate=datetime'9999-12-31T00%3A00%3A00')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.Qualification"
+            },
+            "QOID": "93201926",
+            "QOTYPE": "Q",
+            "BegDate": "\/Date(1468537200000)\/",
+            "EndDate": "\/Date(1468537200000)\/",
+            "QDescriptionShort": "OSD: HANA Te",
+            "QDescriptionSText": "OSD: HANA Technical Infrastructure",
+            "QLevel": "  2",
+            "QKScale": "0000",
+            "QKID": "93100126",
+            "QKType": "QK",
+            "AllLevel": false,
+            "OrgId": "30015950"
+        }]
+    }
+}

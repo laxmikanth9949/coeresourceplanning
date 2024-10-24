@@ -1,0 +1,98 @@
+<mvc:View controllerName="sap.coe.rpa.view.MyStaffing" class="sapUiSizeCompact" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:reuselib="sap.coe.capacity.reuselib.controls.ResourcePlanningCalendar">
+    <Page id="myStaffingPage" showHeader="false">
+        <content>
+        	<!--Planning Calendar Component-->
+            <reuselib:ResourcePlanningCalendarComponent id="resourcePlanningCalendarId" onStartDateChangeComplete=".onStartDateChange" onCreateDialogConfirm=".createTimeAllocation" allocationCreated="onAllocationCreated" showRowHeader="true" />
+            <!--Allcoation Table-->
+            <Table id="timeAllocationsTable" mode="SingleSelectMaster" selectionChange="onLineItemPress"
+            	items="{path: 'resourceModel>/0/RPTASTDataSet/results/', sorter: {        path: 'BegDate',        descending: false        }}" updateFinished="selectFirstTableItem">
+                <headerToolbar id="timeAllocationsTable_headerToolbar">
+                    <Toolbar class="sapUiMediumMarginBeginEnd sapUiMediumMarginTop">
+                        <Title id="textForNumberOfTasks" text="{i18n>VIEW_MYSTAFFING_TOOLBAR_STAFFING}" />
+                        <ToolbarSpacer />
+                        <Link id="idForBttnAllocationEdit" text="{i18n>VIEW_MYSTAFFING_BUTTON_EDIT}" enabled="{path:'resourceModel>/', formatter:'.formatter.countTableEntries'}" press="openEditDialog" />
+                        <Link id="idForBttnAllocationDelete" text="{i18n>VIEW_MYSTAFFING_BUTTON_DELETE}" enabled="{path:'resourceModel>/', formatter:'.formatter.countTableEntries'}" press="deleteTimeAllocation" />
+                    </Toolbar>
+                </headerToolbar>
+                <columns id="timeAllocationsTable_columns">                  
+                	<!--Start Date-->
+                    <Column id="timeAllocationsTable_col1" width="11%" minScreenWidth="Desktop" demandPopin="true" >
+                        <header id="timeAllocationsTable_header">
+                            <Label id="timeAllocationsTable_col1_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_DATESTART}" />
+                        </header>
+                    </Column>
+                    <!--End Date-->
+                    <Column id="timeAllocationsTable_col2" width="11%" minScreenWidth="Desktop" demandPopin="true" >
+                        <header id="timeAllocationsTable_col2_header">
+                            <Label id="timeAllocationsTable_col2_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_DATEEND}" />
+                        </header>
+                    </Column>
+                     <!--Assignment-->
+                    <Column id="timeAllocationsTable_col6"  >
+                        <header id="timeAllocationsTable_col6_header">
+                            <Label id="timeAllocationsTable_col6_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_ASSIGNMENT}" />
+                        </header>
+                    </Column>                   
+                    <!--Duration-->
+                    <Column id="timeAllocationsTable_col3" width="10%" minScreenWidth="Tablet" demandPopin="true" >
+                        <header id="timeAllocationsTable_col3_header">
+                            <Label id="timeAllocationsTable_col3_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_EFFORT}" />
+                        </header>
+                    </Column>
+                    <!--Call-Off-->
+                    <Column id="timeAllocationsTable_col4" width="10%" minScreenWidth="Tablet" demandPopin="true">
+                        <header id="timeAllocationsTable_col4_header"  >
+                            <Label id="timeAllocationsTable_col4_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_CALLOFF}" />
+                        </header>
+                    </Column>
+                    <!--Description-->
+                    <Column id="timeAllocationsTable_col5" >
+                        <header id="timeAllocationsTable_col5_header">
+                            <Label id="timeAllocationsTable_col5_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_DESCRIPTION}" />
+                        </header>
+                    </Column>                    
+                    <!--Created By-->
+                    <Column id="timeAllocationsTable_col10" width="11%" minScreenWidth="Desktop" demandPopin="true" popinDisplay="WithoutHeader">
+                        <header id="timeAllocationsTable_col10_header">
+                            <Label id="timeAllocationsTable_col10_label" text="{i18n>VIEW_MYSTAFFING_TABLE_COLUMN_CREATEDBY}" />
+                        </header>
+                    </Column>
+                </columns>
+                <ColumnListItem id="timeAllocationsItem" vAlign="Middle" class="navTableItemLayout" type="Active">
+                    <cells id="timeAllocationsItem_cells">
+                    	<!--Start Date-->
+                        <Text id="timeAllocationsItem_cell_1"
+                        	text="{path:'resourceModel>BegDate', formatter: 'sap.coe.rpa.util.formatter.formatDate'}" maxLines="2"></Text>
+						<!--End Date-->
+                        <Text id="timeAllocationsItem_cell_2"
+                        	text="{path:'resourceModel>EndDate', formatter: 'sap.coe.rpa.util.formatter.formatDate'}" maxLines="2"></Text>
+                        <!--Assignment-->
+                        <ObjectIdentifier titleActive="true" 
+                            title="{= (${resourceModel>ItemNo}) ? parseInt(${resourceModel>DemandId}) + ' / ' + parseInt(${resourceModel>ItemNo})  : ''}" 
+                            text="{parts:[{path: 'resourceModel>Type'}, {path:'resourceModel>SHPName'}], formatter:'sap.coe.rpa.util.formatter.setBindingTextForCategory'}" 
+                            titlePress="onItemDescriptionLinkPress"/>                            
+						<!--Duration-->
+                        <Text id="timeAllocationsItem_cell_3" text="{parts: [{path: 'resourceModel>Duration'},{path:'resourceModel>QualificationTxt'}],formatter:'sap.coe.rpa.util.formatter.addDaysToDuration'}" maxLines="2"></Text>
+                        <!--Call-Off-->
+                        <Text id="timeAllocationsItem_cell_4" text="{path: 'resourceModel>CallOff'}"></Text>
+                        <!--Description-->
+                        <ObjectIdentifier 
+                            title="{path:'resourceModel>CustomerName'}" 
+                            text="{parts:[{path:'resourceModel>Type'},{path:'resourceModel>ColorCode'},{path: 'resourceModel>QualificationTxt'},{path:'resourceModel>ItemDescription'}],formatter: 'sap.coe.rpa.util.formatter.getDescription'}" />
+                            <!--Created By -->                    
+                        <Text id="timeAllocationsItem_cell_9" text="{path: 'resourceModel>CreateBy'}"></Text>
+                    </cells>
+                </ColumnListItem>
+            </Table>
+        </content>
+        <!--Footer-->
+        <footer>
+            <Bar></Bar>
+            <Toolbar>
+                <ToolbarSpacer />
+                <Button text="{i18n>VIEW_MYSTAFFING_TEAMCALENDAR_LINK}" press="onNavTeamCalendar" />
+                <Button icon="sap-icon://action" press="onActionSheetPress" tooltip="{i18n>VIEW_MYSTAFFING_EXPORT_TO_EXCEL}"/>
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

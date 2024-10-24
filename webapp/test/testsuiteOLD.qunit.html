@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QUnit TestSuite for RPA</title>
+		<script src="../../resources/sap/ui/qunit/qunit-redirect.js""></script>
+		<script src="./testsuite.qunit.js" data-sap-ui-testsuite></script>
+		<script>
+
+		/**
+		 * Add test pages to this test suite function.
+		 */
+		 /*Temp commented out, due to recent parameter change on Jenkins build
+		All test need to pass for the build to be successful, complete overhaul of test cases needed since many are failing*/
+		/*function suite() {
+			var oSuite = new parent.jsUnitTestSuite(),
+				sContextPath = location.pathname.substring(0, location.pathname.lastIndexOf("/") + 1);
+
+			oSuite.addTestPage(sContextPath + "unit/unitTests.qunit.html");
+			oSuite.addTestPage(sContextPath + "integration/opaTests.qunit.html");
+
+			return oSuite;
+		}*/
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

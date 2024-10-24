@@ -1,0 +1,17 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResPublicHolidaysSet('I327678')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/ResPublicHolidaysSet('I327678')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.ResPublicHolidays"
+            },
+            "EmpId": "I327678",
+            "ResGuid": "C45444B2147A1EE5B4F10094AA0D7ECD",
+            "BegDate": "\/Date(1469401200000)\/",
+            "EndDate": "\/Date(1470002400000)\/",
+            "HollidayDate": "\/Date(1469660400000)\/",
+            "HolidayDesc": "Christmas Day"
+        }]
+    }
+}

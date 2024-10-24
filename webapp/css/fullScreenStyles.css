@@ -1,0 +1,157 @@
+.resourceplanning .navTableControlLayout {
+    padding: 1rem 2rem 0 2rem;
+}
+.resourceplanning .sap-tablet .navTableControlLayout {
+    padding: 1rem 1rem 1rem 1rem;
+}
+.resourceplanning .sap-phone .navTableControlLayout {
+    padding: 0 0 0 0;
+}
+.resourceplanning .navTableItemLayout {
+    min-height: 5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.resourceplanning .sapUiCalendarAppType02 {
+  background-color: rgb(241,168,206)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType02.sapUiCalendarApp,.sapUiCalendarAppType02.sapUiCalendarApp:active {
+    border-left-color: rgb(252,99,176)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType04 {
+  background-color: rgb(254,207,122)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType04.sapUiCalendarApp, .sapUiCalendarAppType04.sapUiCalendarApp:active {
+    border-left-color: rgb(223,156,21)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType03 {
+  background-color: rgb(255,242,87)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType03.sapUiCalendarApp, .sapUiCalendarAppType03.sapUiCalendarApp:active {
+    border-left-color:rgb(206,194,17)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType08 {
+  background-color: rgb(179, 179, 179)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType08.sapUiCalendarApp, .sapUiCalendarAppType08.sapUiCalendarApp:active {
+    border-left-color:rgb(179, 179, 179)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType09 {
+  background-color: rgb(241,168,206)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType09.sapUiCalendarApp,.sapUiCalendarAppType09.sapUiCalendarApp:active {
+    border-left-color: rgb(252,99,176)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType01 {
+  background-color: rgb(150,233,242);
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(150,233,242),
+    rgb(150,233,242) 10px,
+    rgb(255,255,255) 10px,
+    rgb(255,255,255) 20px
+  )!important;
+}
+
+.resourceplanning .sapUiCalendarAppType07 {
+  background-color: rgb(254, 207, 122);
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(254,207,122),
+    rgb(254,207,122) 10px,
+    rgb(255,255,255) 10px,
+    rgb(255,255,255) 20px
+  );
+}
+
+.sapUiCalendarAppType01icon {
+  background-color: rgb(150,233,242);
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(150,233,242),
+    rgb(150,233,242) 3px,
+    rgb(255,255,255) 3px,
+    rgb(255,255,255) 6px
+  );
+  color: transparent !important;
+}
+.sapUiCalendarAppType07icon {
+  background-color: rgb(254, 207, 122);
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(254,207,122),
+    rgb(254,207,122) 3px,
+    rgb(255,255,255) 3px,
+    rgb(255,255,255) 6px
+  );
+  color: transparent !important;
+}
+
+.resourceplanning .sapUiCalendarAppType07.sapUiCalendarApp, .resourceplanning .sapUiCalendarAppType07.sapUiCalendarApp:active {
+    border-left-color: rgb(223, 156, 21)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType01.sapUiCalendarApp, .sapUiCalendarAppType01.sapUiCalendarApp:active {
+    border-left-color: rgb(26,177,188)!important;
+}
+.resourceplanning .sapUiCalendarAppType01.sapUiCalendarApp.sapUiCalendarAppSel>.sapUiCalendarAppCont>.sapUiCalendarAppText{
+  color: #151515!important;
+}
+.resourceplanning .sapUiCalendarAppType01.sapUiCalendarApp.sapUiCalendarAppSel>.sapUiCalendarAppCont>.sapUiCalendarAppIcon{
+  color: #151515!important;
+}
+
+.resourceplanning .sapUiCalendarAppType05 {
+  background-color: rgb(180,247,250)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType05.sapUiCalendarApp, .sapUiCalendarAppType05.sapUiCalendarApp:active {
+    border-left-color: rgb(100,215,223)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType06 {
+  background-color: rgb(60,233,242)!important;
+}
+
+.resourceplanning .sapUiCalendarAppType06.sapUiCalendarApp, .sapUiCalendarAppType06.sapUiCalendarApp:active {
+    border-left-color: rgb(26,177,188)!important;
+}
+
+.operatorCheckBox {
+  width: 2rem!important;
+}
+
+.qualificationPanel .sapMTitle {
+    margin-left: 0rem !important;
+}
+
+.qualificationPanel div[role=toolbar] {
+    padding-left: 0rem !important;
+    border-bottom: 0px !important;
+}
+
+.qualificationPanel > .sapMPanelContent {
+    border-bottom: 0px !important;
+}
+
+.qualificationPanel li {
+    height: 1.5rem !important;
+}
+
+.qualificationPanel div.sapMSLITitleOnly {
+    font-size: 1rem !important;
+}
+
+.resourceplanning .sapUiCalendarRowAppsNoWork {
+    background-color: #B3B3B3;
+}

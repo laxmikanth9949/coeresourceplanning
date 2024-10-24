@@ -1,0 +1,50 @@
+{
+    "d": {
+        "results": [{
+            "__metadata": {
+                "id": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/TimeAllocationList(ID='089E016CA2421EE695AD28DEF9A49362',ResourceGuid='C45444B2147A1EE5B4F10094AA0D7ECD')",
+                "uri": "https://pgtmain.wdf.sap.corp/sap/opu/odata/sap/ZS_AGS_DASHBOARDS_SRV/TimeAllocationList(ID='089E016CA2421EE695AD28DEF9A49362',ResourceGuid='C45444B2147A1EE5B4F10094AA0D7ECD')",
+                "type": "ZS_AGS_DASHBOARDS_SRV.TimeAllocation"
+            },
+            "EmpID": "I300679",
+            "BegDate": null,
+            "EndDate": null,
+            "ID": "089E016CA2421EE695AD28DEF9A49362",
+            "ResourceGuid": "C45444B2147A1EE5B4F10094AA0D7ECD",
+            "Begtimestamp": "\/Date(1469520600000)\/",
+            "Endtimestamp": "\/Date(1469635200000)\/",
+            "TimespecType": "ZVAC",
+            "Description": "I want to create a rec. TA",
+            "Changeable": true,
+            "HrStatus": "",
+            "HrStatusText": "Not HR Relevant",
+            "IsAvailable": false,
+            "Priority": 0,
+            "Duration": 0,
+            "DAILY_REC_START": "\/Date(1469491200000)\/",
+            "DAILY_REC_END": "\/Date(1469577600000)\/",
+            "WEEKLY_REC_START": null,
+            "WEEKLY_REC_END": null,
+            "WEEKS": 0,
+            "MONDAY": "",
+            "TUESDAY": "",
+            "WEDNESDAY": "",
+            "THURSDAY": "",
+            "FRIDAY": "",
+            "SATURDAY": "",
+            "SUNDAY": "",
+            "RULE_ZONLO": "GMTUK",
+            "RECURRENCE_TYPE": "DAILY",
+            "M1_DAY": "",
+            "MONTHLY_REC_START": null,
+            "MONTHLY_REC_END": null,
+            "M1_MONTH": "",
+            "M3_DAY_NR": 0,
+            "M3_WEEKDAY_NR": "",
+            "M3_MONTHS": "",
+            "DAYS": "1",
+            "GWMsg": "",
+            "VARIANT": ""
+        }]
+    }
+}

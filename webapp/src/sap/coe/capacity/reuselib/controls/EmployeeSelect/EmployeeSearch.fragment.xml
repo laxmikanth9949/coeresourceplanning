@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:m="sap.m">
+  <Dialog title="{i18n>FRAGMENT_EMPLOYEESEARCH_TITLE}" contentWidth="650px" contentHeight="70%">
+    <VBox>
+      <f:SimpleForm id="formEmpSearch" minWidth="1024" maxContainerCols="2" editable="true" layout="ResponsiveGridLayout" labelSpanL="4"
+        labelSpanM="4" emptySpanL="0" emptySpanM="0" columnsL="2" columnsM="2" class="editableForm">
+        <f:content>
+          <core:Title/>
+          <Label text="{i18n>FRAGMENT_EMPLOYEESEARCH_FIRSTNAME}"/>
+          <SearchField search="onSearchEmployee" id="searchFieldFirstName"/>
+          <Label text="{i18n>FRAGMENT_EMPLOYEESEARCH_EMPLOYEEID}"/>
+          <SearchField search="onSearchEmployee" id="searchFieldEmpId"/>
+          <core:Title/>
+          <Label text="{i18n>FRAGMENT_EMPLOYEESEARCH_LASTNAME}"/>
+          <SearchField search="onSearchEmployee" id="searchFieldLastName"/>
+          <Label/>
+          <Button id="idForSearchButton" text="{i18n>FRAGMENT_EMPLOYEESEARCH_SEARCH}" press="onSearchEmployee"/>
+        </f:content>
+      </f:SimpleForm>
+    </VBox>
+    <List id="employeeSearchList" mode="MultiSelect" selectionChange="onEmployeeSelectionChange"/>
+    <beginButton>
+      <Button id="acceptForEmpId" text="{i18n>FRAGMENT_EMPLOYEESEARCH_BUTTON_OK}" type="Emphasized" press="onApplyTokens"/>
+    </beginButton>
+    <endButton>
+      <Button id="idForCloseButton" text="{i18n>FRAGMENT_EMPLOYEESEARCH_BUTTON_CLOSE}" press="onCloseDialog"/>
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>

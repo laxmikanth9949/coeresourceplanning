@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <MultiInput id="id___EmpId" width="100%" valueHelpRequest="onEmployeeSearchOpen" tokenUpdate="onTokenChange"
+    tokens="{ path: 'VariantFilterModel>/EmpId' }">
+    <tokens>
+      <Token key="{VariantFilterModel>id}" text="{VariantFilterModel>name}"/>
+    </tokens>
+  </MultiInput>
+</core:FragmentDefinition>

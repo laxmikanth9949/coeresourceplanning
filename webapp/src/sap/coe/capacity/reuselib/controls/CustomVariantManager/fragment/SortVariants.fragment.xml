@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog
+    confirm="onConfirmSort"
+    title="{i18n>FRAGMENT_TABLE_SETTINGS_TITLE}"
+    sortItems="{/VariantSortUIModel/SortItems}"
+    sortDescending="{/VariantSortUIModel/Descending}">
+        <sortItems>
+            <ViewSettingsItem
+                text="{text}"
+                key="{key}"
+                selected="{selected}">
+            </ViewSettingsItem>
+    </sortItems>
+  </ViewSettingsDialog>
+</core:FragmentDefinition>

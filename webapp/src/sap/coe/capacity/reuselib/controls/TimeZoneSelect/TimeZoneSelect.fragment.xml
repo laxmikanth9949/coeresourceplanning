@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <SelectDialog title="{i18n>FRAGMENT_SELECT_TIMEZONE_TITLE}" search="handleSearch" confirm="handleClose" rememberSelections="true"
+    items="{ path: 'TimeZone>/TimeZones' }">
+    <StandardListItem title="{TimeZone>text}" icon="{ProductPicUrl}" iconDensityAware="false" iconInset="false" type="Active"
+      selected="{path: 'TimeZone>key', formatter: 'sap.coe.capacity.reuselib.utils.formatter.isTimeZoneSelected'}"/>
+  </SelectDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,27 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+    <Dialog title="{i18n>SAVEAS_DIALOG_TITLE}">
+        <f:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false">
+            <f:content>
+                <Label text="{i18n>SAVEAS_DIALOG_VARIANTNAME}" />
+                <Input id="idForVariantName" required="true" liveChange="onLiveChange" change="onEnterVariantName"/>
+            </f:content>
+        </f:SimpleForm>
+        <l:Grid defaultSpan="XL12 L12 M12 S12" vSpacing="0">
+            <CheckBox id="idForVariantDefault" text="{i18n>SAVEAS_DIALOG_DEFAULT_CHECKBOX}" />
+            <CheckBox id="idForVariantSaveDate" text="{i18n>SAVEAS_DIALOG_SAVEDATE_CHECKBOX}" />
+            <CheckBox id="idForVariantSharing" text="{i18n>SAVEAS_DIALOG_GLOBAL_CHECKBOX}" />
+            <!-- UI Changes needed, moved to next wave
+            <RadioButtonGroup id="idForVariantDates" columns="2">
+                <buttons>
+                    <RadioButton id="idForVariantSaveDate" text="{i18n>SAVEAS_DIALOG_SAVEDATE_RADIOBTN}"/>
+                    <RadioButton id="idForVariantSaveRange" text="{i18n>SAVEAS_DIALOG_SAVERANGE_RADIOBTN}"/>
+                </buttons>
+            </RadioButtonGroup> -->
+            <CheckBox id="idForColumnSaving" text="{i18n>SAVEAS_DIALOG_COLUMN_CHECKBOX}" />
+        </l:Grid>
+        <buttons>
+            <Button id="okBtn" text="{i18n>SAVEAS_DIALOG_OK_BUTTON}" press="onVariantSaveAs" enabled="false"/>
+            <Button text="{i18n>SAVEAS_DIALOG_CANCEL_BUTTON}" press="onCloseDialog" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

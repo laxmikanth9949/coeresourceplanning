@@ -1,0 +1,47 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog contentWidth="650px" contentHeight="70%" beforeOpen="onBeforeOpen">
+        <customHeader>
+            <Bar>
+                <contentLeft>
+                    <Button id="navigationButton" icon="sap-icon://arrow-left" class="sapUiTinyMarginBottom" press=".onQualificationNavBack"
+                        visible="{= ${UI>/navigationLength} === 1 || ${UI>/selected} === 'SearchQual' ? false : true}"
+                        tooltip="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_TOOLTIP_NAVIGATE_BACK}"/>
+                </contentLeft>
+                <contentMiddle>
+                    <Title text="{i18n>FRAGMENT_SKILLSELECTTREE_TITLE}"/>
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+        <content>
+            <VBox alignItems="Center">
+                <SegmentedButton selectedKey="{UI>/selected}" selectionChange="onSegmentedBtnSelect">
+                    <items>
+                        <SegmentedButtonItem id="SegmentedButton1" width="60%" text="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_NAVIGATE}" key="NavigateQual"/>
+                        <SegmentedButtonItem id="SegmentedButton2" width="60%" icon="sap-icon://search" text="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_SEARCH}"
+                            key="SearchQual"/>
+                    </items>
+                </SegmentedButton>
+            </VBox>
+            <SearchField id="qualificationSearchField" width="100%" search=".onSearch" visible="{= ${UI>/selected} === 'NavigateQual' ? false : true}"/>
+        </content>
+        <List id="qualificationCatalogList" items="{path: '/QualificationList'}" selectionChange="onSelectionChange" itemPress=".onQualificationNav"
+            updateFinished="onUpdateFinished" visible="{= ${UI>/selected} === 'SearchQual' ? false : true}">
+            <items>
+                <StandardListItem title="{QDescriptionSText}" description="{QOID}"
+                    type="{path: 'QOTYPE', formatter:'sap.coe.capacity.reuselib.utils.formatter.formatItemType'}"/>
+            </items>
+        </List>
+        <List id="qualificationSearchList" mode="MultiSelect" selectionChange="onSelectionChange" itemPress="onQualificationNav"
+            items="{path: '/QualSearchHelpSet'}" updateFinished="onUpdateFinished" visible="{= ${UI>/selected} === 'NavigateQual' ? false : true}">
+            <items>
+                <StandardListItem title="{QualificationText}" description="{QualificationID}"/>
+            </items>
+        </List>
+        <beginButton>
+            <Button id="acceptForQualificationid" text="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_OK}" type="Emphasized" press="onApplyTokens"/>
+        </beginButton>
+        <endButton>
+            <Button id="idForCloseButton" text="{i18n>FRAGMENT_SKILLSELECTTREE_CLOSE}" press=".onCloseDialog"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog afterOpen="onAfterOpen" title="{i18n>FRAGMENT_SERVICE_TEAM_TITLE}" contentHeight="600px">
+        <List id="SelectOrganisationList" selectionChange="onServiceTeamSelectionChange" itemPress="onServiceTeamSelectionChange" mode="MultiSelect"
+            items="{/ResServiceTeamSet}">
+            <StandardListItem title="{ServiceTeamName}" type="Active"
+                selected="{path: 'ServiceTeamID', formatter: 'sap.coe.capacity.reuselib.utils.formatter.isSelected'}"/>
+        </List>
+        <beginButton>
+            <Button id="acceptForEmpId" text="{i18n>FRAGMENT_SERVICE_TEAM_OK}" type="Emphasized" press="onApplyTokens"/>
+        </beginButton>
+        <endButton>
+            <Button id="idForCloseButton" text="{i18n>FRAGMENT_SERVICE_TEAM_CLOSE}" press="onCloseDialog"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

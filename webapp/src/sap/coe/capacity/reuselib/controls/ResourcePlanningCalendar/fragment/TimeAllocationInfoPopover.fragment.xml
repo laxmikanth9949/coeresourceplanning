@@ -1,0 +1,124 @@
+<core:FragmentDefinition
+    xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core">
+    <ResponsivePopover
+        title="{i18n>TA_INFO_POPOVER_TITLE}"
+        class="sapUiPopupWithPadding"
+        placement="Auto" >
+        <content>
+            <Table selectionChange="onTableSelectionChange" fixedLayout="false" growing="true">
+                <columns>
+                    <Column id="scopeDate">
+                        <Text text="{i18n>TA_INFO_TABLE_COLUMN_TIME_ALLOCATION}" />
+                    </Column>
+                    <Column id="cwCol">
+                        <Text text="{i18n>TA_INFO_TABLE_COLUMN_HOW_TO_USE}" />
+                    </Column>
+                    <Column id="startDateCol" >
+                        <Text text="{i18n>TA_INFO_TABLE_COLUMN_EFFECT_ON_CAPACITY}" />
+                    </Column>
+                    <Column id="startTimeCol" >
+                        <Text text="{i18n>TA_INFO_TABLE_COLUMN_EFFECT_ON_UTILIZATION}" />
+                    </Column>
+                </columns>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_ABSENCE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_ABSENCE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_ABSENCE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_ABSENCE}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_BO_DUTY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_BO_DUTY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_BO_DUTY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_BO_DUTY}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_BILLABLE_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_BILLABLE_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_BILLABLE_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_BILLABLE_PROJ_WORK}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_ESCALATION}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_ESCALATION}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_ESCALATION}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_ESCALATION}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_INTERNAL_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_INTERNAL_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_INTERNAL_PROJ_WORK}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_INTERNAL_PROJ_WORK}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_REMOTE_ONLY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_REMOTE_ONLY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_REMOTE_ONLY}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_REMOTE_ONLY}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_OFFICE_BLOCKED}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_OFFICE_BLOCKED}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_OFFICE_BLOCKED}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_OFFICE_BLOCKED}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_PROD_DEV}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_PROD_DEV}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_PROD_DEV}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_PROD_DEV}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_RT_EXPERTISE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_RT_EXPERTISE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_RT_EXPERTISE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_RT_EXPERTISE}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_TENTATIVE_SERVICE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_TENTATIVE_SERVICE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_TENTATIVE_SERVICE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_TENTATIVE_SERVICE}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_TRAINEE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_TRAINEE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_TRAINEE}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_TRAINEE}" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_TIME_ALLOCATION_TRAINER}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_HOW_TO_USE_TRAINER}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_CAPACITY_TRAINER}" />
+                            <Text text="{i18n>TA_INFO_TABLE_ROW_EFFECT_ON_UTILIZATION_TRAINER}" />
+                        </cells>
+                    </ColumnListItem>
+            </Table>
+            <Link emphasized="true" text="{i18n>TEXT_FOR_TA_JAM_PAGE_LINK}" press="onTimeAllocationJamLinkPress" id="taJamLink" />
+        </content>
+    </ResponsivePopover>
+</core:FragmentDefinition>

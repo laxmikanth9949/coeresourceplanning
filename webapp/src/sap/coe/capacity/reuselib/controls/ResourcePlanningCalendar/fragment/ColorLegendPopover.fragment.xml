@@ -1,0 +1,47 @@
+<core:FragmentDefinition
+	xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core">
+	<Popover
+		title="{i18n>FRAGMENT_COLORLEGEND_TITLE}"
+		placement="Bottom"
+		contentWidth="auto"
+		showArrow="false">
+		<content>
+			<VBox class="sapUiTinyMargin">
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#b4f7fa"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_LIGHT_BLUE}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#3ce9f2"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_BLUE}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd sapUiCalendarAppType01icon" src="sap-icon://color-fill"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_LIGHT_BLUE_CROSS_HATCH}"/>
+				</HBox>
+
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#fff257"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_YELLOW}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#f1a8ce"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_PINK}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#fecf7a"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_ORANGE}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd sapUiCalendarAppType07icon" src="sap-icon://color-fill" color="#fecf7a"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_ORANGE_CROSS_HATCH}"/>
+				</HBox>
+				<HBox class="sapUiTinyMargin">
+					<core:Icon class="sapUiTinyMarginEnd" src="sap-icon://color-fill" color="#808080"/>
+					<Text text="{i18n>FRAGMENT_COLORLEGEND_GREY}"/>
+				</HBox>
+			</VBox>
+		</content>
+	</Popover>
+</core:FragmentDefinition>

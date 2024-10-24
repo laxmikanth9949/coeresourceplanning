@@ -1,0 +1,75 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:n="sap.tnt">
+    <ResponsivePopover title="{i18n>FRAGMENT_QUICK_OVERVIEW}" class="sapUiPopupWithPadding" placement="Auto" contentWidth="30rem" beforeOpen="onBeforeOpen">
+        <content>
+            <f:SimpleForm
+                maxContainerCols="2"
+                editable="false"
+                layout="ResponsiveGridLayout"
+                title="{FullName}"
+                labelSpanL="4"
+                labelSpanM="4"
+                emptySpanL="0"
+                emptySpanM="0"
+                columnsL="1"
+                columnsM="1">
+                <f:content>
+                    <Title text="{i18n>FRAGMENT_COLLEAGUE_CONTACT_DETAILS}" titleStyle="H3" />
+                    <HBox>
+                        <Label text="{i18n>FRAGMENT_COLLEAGUE_MOBILE}:" class="sapUiTinyMarginEnd"/>
+                        <Text text="{CELLPHONE}" />
+                        <layoutData>
+                            <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                        </layoutData>
+                    </HBox>
+
+                    <HBox>
+                        <Label text="{i18n>FRAGMENT_COLLEAGUE_WORK}:" class="sapUiTinyMarginEnd" />
+                        <Text text="{WORKPHONE}" />
+                        <layoutData>
+                            <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                        </layoutData>
+                    </HBox>
+
+                    <Title text="{i18n>FRAGMENT_COLLEAGUE_LOCATION}" titleStyle="H3" />
+                    <HBox>
+                        <Text text="{Location}" />
+                        <layoutData>
+                            <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                        </layoutData>
+                    </HBox>
+
+                    <Panel id="qualificationPanel" class="qualificationPanel" expandable="false" expanded="true" height="8.5rem">
+                        <headerToolbar>
+                            <Toolbar>
+                                <content>
+                                   <Title text="{i18n>FRAGMENT_COLLEAGUE_QUALIFICATIONS}" titleStyle="H4" />
+                                </content>
+                            </Toolbar>
+                        </headerToolbar>
+                        <content>
+                            <List showSeparators="None" items="{QualificationSet/results}">
+                                <items>
+                                    <StandardListItem title="{QDescriptionSText}" />
+                                </items>
+                            </List>
+                        </content>
+                    </Panel>
+
+                    <Title text="{i18n>FRAGMENT_COLLEAGUE_MANAGER}" titleStyle="H3" />
+                    <HBox>
+                        <Text text="{Manager}" />
+                        <layoutData>
+                            <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                        </layoutData>
+                    </HBox>
+                </f:content>
+            </f:SimpleForm>
+        </content>
+        <beginButton>
+            <Button text="{i18n>FRAGMENT_COLLEAGUE_BUTTON_MAINTAIN_QUALIFICATIONS}" visible="{/bIsSelectedCurrentUser}" press="onMaintainQualificationsPress" />
+        </beginButton>
+        <endButton>
+            <Button text="{i18n>FRAGMENT_COLLEAGUE__BUTTON_CREATE_TA}" press="onCreateAllocationPress" />
+        </endButton>
+    </ResponsivePopover>
+</core:FragmentDefinition>

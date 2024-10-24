@@ -1,0 +1,143 @@
+<core:FragmentDefinition
+	xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core">
+	<ResponsivePopover
+        title="{i18n>FRAGMENT_ALLOCATIONDETAIL_TITLE_TIMEALLOCATION}"
+		class="sapUiPopupWithPadding"
+		placement="Auto"
+		contentWidth="25rem" >
+		<content>
+		<f:SimpleForm
+			maxContainerCols="2"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			title="{FullName}"
+			labelSpanL="4"
+			labelSpanM="4"
+			emptySpanL="0"
+			emptySpanM="0"
+			columnsL="1"
+			columnsM="1">
+			<f:content>
+				<Link emphasized="true" text="{parts:[{path:'DemandId'}, {path:'ItemNo'}], formatter:'.formatter.seperateWithSlash'}" press="onItemDescriptionLinkPress" id="OSDLinkID" visible="{= (${Type} === 'ASG') ? true : false}"/>
+
+				<Title text="{ItemDescription}" titleStyle="H4" visible="{= (${Type} === 'ASG') ? true : false }"/>
+
+				<Text text="{parts:[{path: 'Type'}, {path:'SHPName'}], formatter: '.formatter.setBindingTextForCategory'}" visible="{= (${Type} === 'ASG') ? true : false }"/>
+
+				<Title text="{parts:[{path: 'Type'}, {path:'SHPName'}], formatter: '.formatter.setBindingTextForCategory'}" titleStyle="H3" visible="{= (${Type} === 'TAL') ? true : false }"/>
+
+				<Text text="{ItemDescription}" visible="{= (${Type} === 'TAL') ? true : false }"/>
+
+				<Title text="{parts:[{path: 'Type'}, {path: 'DemandId'}, {path:'ItemNo'}, {path:'ItemDescription'}], formatter:'.formatter.setBindingTextForDescription'}" titleStyle="H3" visible="{= (${Type} === 'SFT') ? true : false }"/>
+				<Text text="{i18n>FRAGMENT_ALLOCATIONDETAIL_CASENAME}" visible="{= (${Type} === 'SFT') ? true : false }"/>
+
+				<HBox visible="{path:'CustomerName',formatter:'.formatter.setVisibilityOfFields'}">
+					<Title text="{i18n>FRAGMENT_ALLOCATIONDETAIL_CUSTOMER}" titleStyle="H3" visible="{= (${Type} === 'TAL') ? false : true }"/>
+				</HBox>
+				<HBox visible="{= (${Type} === 'TAL') ? false : true }">
+                    <Text text="{parts:[{path: 'CustomerName'}, {path: 'Country'}], formatter:'.formatter.concatWithBrackets'}" visible="{path:'CustomerName',formatter:'.formatter.setVisibilityOfFields'}"/>
+                    <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+
+                <Title text="{i18n>FRAGMENT_ALLOCATIONDETAIL_SCHEDULE}" titleStyle="H3" />
+                <HBox>
+					<Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_DATESTART}: " visible="{path:'BegDate',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+					<Text text="{path:'BegDate', type: 'sap.ui.model.type.DateTime',formatOptions: {style: 'short'}} (CW {CW})" visible="{path:'BegDate',formatter:'.formatter.setVisibilityOfFields'}"/>
+					<layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+				<HBox>
+					<Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_DATEEND}: " visible="{path:'EndDate',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+					<Text text="{path:'EndDate', type: 'sap.ui.model.type.DateTime', formatOptions: {style: 'short'}} (CW {EndCW})"  visible="{path:'EndDate',formatter:'.formatter.setVisibilityOfFields'}" />
+					<layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false}">
+                	<Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_SCOPE_DATE}" visible="{path:'ScopeDate',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+					<Text  text="{path:'ScopeDate', type: 'sap.ui.model.type.Date', formatOptions:{style: 'short'}}" visible="{path:'ScopeDate',formatter:'.formatter.setVisibilityOfFields'}"/>
+                	<layoutData>
+                		<l:GridData span="L12 M12 S12" indent="L1 M1 S1" />
+                	</layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_REMOTE}: " visible="{path:'Location',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{= (${Location} === 'Remote') ? 'Yes' : 'No' }" visible="{path:'Location',formatter:'.formatter.setVisibilityOfFields'}" />
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox>
+                    <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_EFFORT}: " class="sapUiTinyMarginEnd"/>
+					<Text text="{path:'Duration',formatter:'.formatter.addDaysToDuration'}" />
+                    <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_CALLOFF}: "  class="sapUiTinyMarginEnd"/>
+	                <Text text="{path:'CallOff',formatter:'.formatter.addDaysToDuration'}" />
+                	<layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'SFT') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_EXPECTED_EFFORT}: " class="sapUiTinyMarginEnd"/>
+	                <Text text="{i18n>FRAGMENT_ALLOCATIONDETAIL_1DAY}"/>
+                	<layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+
+                <Title text="{i18n>FRAGMENT_ALLOCATIONDETAIL_OTHER_DETAILS}" titleStyle="H3" visible="{= (${Type} === 'TAL') ? false : true }"/>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_HEADERSTATUS}: " visible="{path:'HeaderStatusTxt',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{HeaderStatusTxt}" visible="{path:'HeaderStatusTxt',formatter:'.formatter.setVisibilityOfFields'}"/>
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_QUALIFICATION}: " visible="{path:'QualificationTxt',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{QualificationTxt}" visible="{path:'QualificationTxt',formatter:'.formatter.setVisibilityOfFields'}"/>
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_SERVICE_TEAM}: " visible="{path:'ServiceTeamName',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{ServiceTeamName}" visible="{path:'ServiceTeamName',formatter:'.formatter.setVisibilityOfFields'}"/>
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'ASG') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_STAFFER}: " visible="{path:'CreateBy',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{CreateBy}" visible="{path:'CreateBy',formatter:'.formatter.setVisibilityOfFields'}"/>
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+                <HBox visible="{= (${Type} === 'SFT') ? true : false }">
+	                <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_ROLENAME}: " visible="{path:'QualificationTxt',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+	                <Text text="{QualificationTxt}" visible="{path:'QualificationTxt',formatter:'.formatter.setVisibilityOfFields'}"/>
+	                <layoutData>
+                        <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                    </layoutData>
+                </HBox>
+
+			</f:content>
+		</f:SimpleForm>
+		</content>
+		<beginButton>
+			<Button id="idEditAllocation" text="{i18n>FRAGMENT_ALLOCATIONDETAIL_EDIT}" press="onOpenEditDialog" visible="{= (${Type} === 'TAL' || ${UIModel>/staffingAuthorized} === true) &amp;&amp; ${UIModel>/assignmentEditable} === true &amp;&amp; ${UIModel>/oldAbsenceAllocation} === true}" />
+		</beginButton>
+        <endButton>
+			<Button id="idDeleteAllocation" text="{i18n>FRAGMENT_ALLOCATIONDETAIL_DELETE}" press="onDeleteCalendarEntry" visible="{= (${Type} === 'TAL' || ${UIModel>/staffingAuthorized} === true) &amp;&amp; ${UIModel>/assignmentEditable} === true}" />
+		</endButton>
+	</ResponsivePopover>
+</core:FragmentDefinition>

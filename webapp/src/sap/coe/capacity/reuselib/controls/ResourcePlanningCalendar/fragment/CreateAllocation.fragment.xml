@@ -1,0 +1,175 @@
+<!-- Copyright (C) 2009-2014 SAP SE or an SAP affiliate company. All rights 
+	reserved -->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" >
+    <Dialog id="idCreateAllocation" title="{i18n>FRAGMENT_CREATEALLOCATION_TITLE}" contentWidth="650px" beforeOpen="onBeforeOpen">
+        <f:SimpleForm id="idEditTimeAllocationForm" editable="true" layout="ResponsiveGridLayout" labelSpanL="4" labelSpanM="4" class="editableForm">
+            <f:content>
+                <Label text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_EMPLOYEENAME}" required="true" />
+                <Input id="idEmployeeName" value="{CreateAllocation>/FullName}" editable="false"/>
+
+                <Label text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_EMPLOYEENUM}" required="true" />
+                <Input id="idEmployeeNumber" value="{CreateAllocation>/EmpID}" editable="false"/>
+
+                <Label id="idTimeAllocation" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_TIMEALLOCATION}" required="true" />
+                <ComboBox id="idtimeAllocationCategoryList" items="{path: 'ReuseModel>/TimeAllocationCategories', sorter: { path: 'Category'}}" selectedKey="{CreateAllocation>/SelectedTACategorie}">
+                    <core:Item key="{ReuseModel>CategoryID}" text="{path: 'ReuseModel>CategoryID', formatter: 'sap.coe.capacity.reuselib.utils.formatter.convertSubmissionStatus'}" />
+                    <layoutData>
+                        <l:GridData span="L6 M6 S6" />
+                    </layoutData>
+                </ComboBox>
+                <Button icon="sap-icon://message-information" type="Emphasized" tooltip="Time Allocation Information" id="idTimeAllocationInfo" press="onTimeAllocationInfoOpen">
+                    <layoutData>
+                    <l:GridData span="L2 M2 S2" />
+                    </layoutData>
+                </Button>
+                <Button text="{i18n>CREATE_ABSENCE_BUTTON}" visible="{CreateAllocation>/bIsUsersResource}"  type="Emphasized" id="idCreateAbsenceButton" press="onCreateAbsence">
+                    <layoutData>
+                        <l:GridData indent="L1 M1 S1" span="L3 M3 S3" />
+                    </layoutData>
+                </Button>
+            </f:content>
+        </f:SimpleForm>
+
+        <Panel id="idSingleWeekForm" expandable="true" headerText="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_SINGLEWEEK_TITLE}" width="auto" class="sapUiNoMargin sapUiNoContentPadding" expandAnimation="false" expand="onSingleWeekExpandCollapse">
+            <content>
+              <f:SimpleForm id="idEditTimeAllocationFormSingle" editable="true" layout="ResponsiveGridLayout" class="editableForm" labelSpanL="4" labelSpanM="4">
+                  <f:content>
+                      <Label id="idBegDateLabel" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_STARTDATE}" required="true" />
+                          <DatePicker id="idBegDate" dateValue="{CreateAllocation>/BegDate}" valueFormat="yyyy-MM-dd" change="onBegDateChange">
+                          <layoutData>
+                                <l:GridData span="L5 M5 S5" />
+                            </layoutData>
+                        </DatePicker>
+                        <TimePicker id="idBegTime" dateValue="{CreateAllocation>/BegTime}" valueFormat="HH:mm" displayFormat="HH:mm"/>
+
+                        <Label id="idEndDateLabel" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_ENDDATE}" required="true" />
+                        <DatePicker id="idEndDate" dateValue="{CreateAllocation>/EndDate}" valueFormat="yyyy-MM-dd" change="onEndDateChange">
+                          <layoutData>
+                                <l:GridData span="L5 M5 S5" />
+                            </layoutData>
+                        </DatePicker>
+                        <TimePicker id="idEndTime" dateValue="{CreateAllocation>/EndTime}" valueFormat="HH:mm" displayFormat="HH:mm"/>
+                        <Label text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_DIALOG_DESCRIPTION}" required="false"/>
+                        <TextArea id="idDescription" value="{CreateAllocation>/Description}" maxLength="80"/>
+                    </f:content>
+                </f:SimpleForm>
+            </content>
+        </Panel>
+
+      	<Panel id="idRecurrenceForm" expandable="true" headerText="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_RECURRENCE_TITLE}" width="auto" class="sapUiNoMargin sapUiNoContentPadding" expandAnimation="false" expand="onRecurrenceExpandCollapse">
+        	<content>
+
+      			<f:SimpleForm id="idEditTimeAllocationForm2" editable="true" layout="ResponsiveGridLayout" class="editableForm" labelSpanL="4" labelSpanM="4">
+							<f:content>
+
+                <Label id="idRecurrencyNumberLabel" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_RECURRENCY}" />
+                <Input id="idRecurrencyNumber" type="Number" value="{CreateAllocation>/RecurrencyNumber}" maxLength="3">
+                    <layoutData>
+                        <l:GridData span="L5 M5 S5" />
+                    </layoutData>
+                </Input>
+                <ComboBox id="idRecurrencyType" items="{ReuseModel>/RecurrencyModel}" selectedKey="{CreateAllocation>/RECURRENCE_TYPE}" selectionChange="onSelectionChangeRecurrenceType" >
+										<core:Item text="{ReuseModel>text}" key="{ReuseModel>key}"/>
+                </ComboBox>
+
+                <Label id="idBegDateRecurrence" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_STARTDATE}" />
+                <DatePicker id="idRecurrenceBegDate" dateValue="{CreateAllocation>/RecurrenceFrom}" valueFormat="yyyy-MM-dd" change="onRecBegDateChange">
+                  <layoutData>
+                        <l:GridData span="L5 M5 S5" />
+                    </layoutData>
+                </DatePicker>
+                <TimePicker id="idRecurrenceBegTime" dateValue="{CreateAllocation>/RecurrenceBegTime}" valueFormat="HH:mm" displayFormat="HH:mm"/>
+
+                <Label id="idEndDateRecurrenceLabel" text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_ENDDATE}" />
+                <DatePicker id="idRecurrenceEndDate" dateValue="{CreateAllocation>/RecurrenceTo}" valueFormat="yyyy-MM-dd" change="onRecEndDateChange">
+                  <layoutData>
+                        <l:GridData span="L5 M5 S5" />
+                    </layoutData>
+                </DatePicker>
+                <TimePicker id="idRecurrenceEndTime" dateValue="{CreateAllocation>/RecurrenceEndTime}" valueFormat="HH:mm" displayFormat="HH:mm"/>
+
+	            </f:content>
+	          </f:SimpleForm>
+            <HBox alignItems="Center" class="sapUiTinyMargin" >
+              <items>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_MONDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker1" selected="{CreateAllocation>/MONDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_TUESDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker2" selected="{CreateAllocation>/TUESDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_WEDNESDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker3" selected="{CreateAllocation>/WEDNESDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_THURSDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker4" selected="{CreateAllocation>/THURSDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_FRIDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker5" selected="{CreateAllocation>/FRIDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_SATURDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker6" selected="{CreateAllocation>/SATURDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+                <VBox alignItems="Center">
+                  <items>
+                    <Text text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_COLUMN_SUNDAY_ABBREVIATION}" />
+                    <CheckBox id="DaysOfTheWeekPicker7" selected="{CreateAllocation>/SUNDAY}" />
+                  </items>
+                  <layoutData>
+                    <FlexItemData growFactor="1" />
+                  </layoutData>
+                </VBox>
+              </items>
+            </HBox>
+            <f:SimpleForm id="idEditTimeAllocationForm3" editable="true" layout="ResponsiveGridLayout" class="editableForm" labelSpanL="4" labelSpanM="4">
+              <f:content>
+                <Label text="{i18n>FRAGMENT_CREATEALLOCATION_TABLE_DIALOG_DESCRIPTION}" required="false"/>
+                <TextArea id="idDescriptionRec" value="{CreateAllocation>/Description}" maxLength="80"/>
+              </f:content>
+            </f:SimpleForm>
+	        </content>
+        </Panel>
+        <buttons>
+            <Button id="idForSaveButton" text="{i18n>FRAGMENT_CREATEALLOCATION_BUTTON_SAVE}" press="createTimeAllocation" />
+            <Button id="idForIndividualSave" text="{i18n>FRAGMENT_CREATEALLOCATION_BUTTON_SAVE_INDIVIDUAL}" press="createIndividualRecurringAllocations" visible="false" />
+            <Button id="idForSeriesSave" text="{i18n>FRAGMENT_CREATEALLOCATION_BUTTON_SAVE_SERIES}" press="createTimeAllocation" visible="false" />
+            <Button id="idForCancelButton" text="{i18n>FRAGMENT_CREATEALLOCATION_BUTTON_CANCEL}" press="onCloseDialog" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

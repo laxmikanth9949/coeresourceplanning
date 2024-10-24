@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog title="{i18n>FRAGMENT_TITLE_WARNING}" state="Warning" afterOpen="onAfterOpen">
+        <VBox>
+            <Text text="{NoAuthDialogModel>/text}" class="sapUiSmallMargin"/>
+            <Link href="{NoAuthDialogModel>/link}" text="{i18n>FRAGMENT_TRAINING_MATERIAL}" class="sapUiSmallMargin"/>
+        </VBox>
+        <endButton>
+            <Button id="idForCloseButton" text="{i18n>FRAGMENT_SERVICETEAM_CLOSE}" press="onCloseDialog"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

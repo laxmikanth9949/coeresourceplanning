@@ -1,0 +1,59 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog
+		confirm="handleConfirm"
+		resetFilters="onReset">
+		<filterItems>
+			<ViewSettingsFilterItem
+				text="{i18n>FRAGMENT_CALENDARFILTER_FILTERITEM_HEADER_TIME_ALLOCATION}"
+				key="TA"
+				multiSelect="true">
+				<items>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ONLY_REMOTE}" key="RPTASTDataSet/results/___EQ___ZAB___X___/SHPName"/>					
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ABSENCE}" key="RPTASTDataSet/results/___EQ___ZVAC___X___/SHPName"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_EOD}" key="RPTASTDataSet/results/___EQ___ZEOD___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_BACKOFFICEDUTY}" key="RPTASTDataSet/results/___EQ___ZBO1___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ONLYREM.SERVICEDEL.POSSIBLE}" key="RPTASTDataSet/results/___EQ___ZAB___X___/SHPName"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_OFFICEBLOCKED}" key="RPTASTDataSet/results/___EQ___ZOB___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_TRAINER}" key="RPTASTDataSet/results/___EQ___ZTREE___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_TRAINEE}" key="RPTASTDataSet/results/___EQ___ZTRER___X___/SHPName" />					
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ESCALATION}" key="RPTASTDataSet/results/___EQ___ZESC___X___/SHPName"/>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_BILLABLEPROJECTWORK}" key="RPTASTDataSet/results/___EQ___ZPRW___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_INTERNALPROJECTWORK}" key="RPTASTDataSet/results/___EQ___ZIPW___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_DEVELOPMENT}" key="RPTASTDataSet/results/___EQ___ZDEV___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_TENTATIVESERVICE}" key="RPTASTDataSet/results/___EQ___ZTS___X___/SHPName" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_REAL_TIME_EXPERTISE}" key="RPTASTDataSet/results/___EQ___ZRTE___X___/SHPName" />
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem
+				text="{i18n>FRAGMENT_CALENDARFILTER_FILTERITEM_HEADER_LOCATION}"
+				key="LOC"
+				multiSelect="false">
+				<items>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_ONSITE}" key="RPTASTDataSet/results/___EQ___Onsite___X___/Location" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_REMOTE}" key="RPTASTDataSet/results/___EQ___Remote___X___/Location"/>
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem
+				text="{i18n>FRAGMENT_CALENDARFILTER_FILTERITEM_HEADER_AVAILABILITY}"
+				key="AVL"
+				multiSelect="false">
+				<items>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_NOALLOCATION}" key="0" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_OPEN_DAYS}" key="1" />					
+				</items>
+			</ViewSettingsFilterItem>
+			<!-- Temp removed until solution finialised in backend -->
+			<ViewSettingsFilterItem
+				text="{i18n>FRAGMENT_CALENDARFILTER_FILTERITEM_STAFFING}"
+				key="STA"
+				multiSelect="false">
+				<items>
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_STAFFER}" key="___EQ___X___X___/Staffer" />
+					<ViewSettingsItem text="{i18n>FRAGMENT_CALENDARFILTER_DIALOG_NONSTAFFER}" key="___NE___X___X___/Staffer"/>
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

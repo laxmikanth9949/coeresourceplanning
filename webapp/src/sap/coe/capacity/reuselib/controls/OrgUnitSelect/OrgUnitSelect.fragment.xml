@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:m="sap.m">
+	<Dialog title="{i18n>FRAGMENT_ORGUNIT_TITLE}" contentWidth="650px" contentHeight="70%">
+		<Page id="OrgUnitDialog" title="" showNavButton="true" navButtonPress="onOrgUnitNavBack">
+			<List id="orgUnitList" mode="MultiSelect" selectionChange="onOrgUnitSeclectionChange" itemPress="onOrgUnitNav"/>
+		</Page>
+		<beginButton>
+			<Button id="acceptForOrgId" text="{i18n>FRAGMENT_ORGUNIT_BUTTON_OK}" type="Emphasized" press="onApplyTokens"/>
+		</beginButton>
+		<endButton>
+			<Button id="idForCancelButton" text="{i18n>FRAGMENT_ORGUNIT_BUTTON_CLOSE}" press="onCloseDialog"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

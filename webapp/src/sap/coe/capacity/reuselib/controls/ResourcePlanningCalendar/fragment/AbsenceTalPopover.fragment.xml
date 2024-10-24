@@ -1,0 +1,61 @@
+<core:FragmentDefinition
+        xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+        xmlns:core="sap.ui.core">
+    <ResponsivePopover
+            title="{i18n>ABSENCE_POPOVER_TITLE}"
+            class="sapUiPopupWithPadding"
+            placement="Auto"
+            contentWidth="25rem" >
+        <content>
+            <f:SimpleForm
+                    maxContainerCols="2"
+                    editable="false"
+                    layout="ResponsiveGridLayout"
+                    title="{FullName}"
+                    labelSpanL="4"
+                    labelSpanM="4"
+                    emptySpanL="0"
+                    emptySpanM="0"
+                    columnsL="1"
+                    columnsM="1">
+                <f:content>
+                    <Title text="{i18n>ABSENCE_FORM_TITLE}" titleStyle="H3" />
+                    <HBox>
+                        <Text text="{ItemDescription}"/>
+                        <layoutData>
+                            <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                        </layoutData>
+                    </HBox>
+
+                    <Title text="{i18n>FRAGMENT_ALLOCATIONDETAIL_SCHEDULE}" titleStyle="H3" />
+                        <HBox>
+                            <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_DATESTART}: " visible="{path:'BegDate',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+                            <Text text="{path:'BegDate', type: 'sap.ui.model.type.DateTime',formatOptions: {style: 'short'}} (CW {CW})" visible="{path:'BegDate',formatter:'.formatter.setVisibilityOfFields'}"/>
+                            <layoutData>
+                                <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                            </layoutData>
+                        </HBox>
+                        <HBox>
+                            <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_DATEEND}: " visible="{path:'EndDate',formatter:'.formatter.setVisibilityOfFields'}" class="sapUiTinyMarginEnd"/>
+                            <Text text="{path:'EndDate', type: 'sap.ui.model.type.DateTime', formatOptions: {style: 'short'}} (CW {EndCW})"  visible="{path:'EndDate',formatter:'.formatter.setVisibilityOfFields'}" />
+                            <layoutData>
+                                <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                            </layoutData>
+                        </HBox>
+                        <HBox>
+                            <Label text="{i18n>FRAGMENT_ALLOCATIONDETAIL_EFFORT}: " class="sapUiTinyMarginEnd"/>
+                            <Text text="{path:'Duration',formatter:'.formatter.addDaysToDuration'}" />
+                            <layoutData>
+                                <l:GridData span="L12 M12 S12" indent="L1 M1 S1"/>
+                            </layoutData>
+                        </HBox>
+                </f:content>
+            </f:SimpleForm>
+        </content>
+
+        <endButton>
+            <Button id="idOpenLeaveReqButton" text="{i18n>ABSENCE_EDIT_DELETE_BUTTON}" press="onOpenEditDelete" visible="{= ${UIModel>/assignmentEditable} === true}" />
+        </endButton>
+
+    </ResponsivePopover>
+</core:FragmentDefinition>

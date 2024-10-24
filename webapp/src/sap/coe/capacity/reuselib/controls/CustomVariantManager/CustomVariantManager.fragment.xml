@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+  <l:HorizontalLayout>
+    <Title titleStyle="H4" text="{VariantItems>/Active/VariantDisplayName}" class="sapUiTinyMarginTop sapUiTinyMarginEnd"/>
+    <Button icon="sap-icon://arrow-down" tooltip="{i18n>VARIANT_SELECT_BUTTON_TOOLTIP}" type="Transparent" press="onOpenVariantManager"/>
+  </l:HorizontalLayout>
+</core:FragmentDefinition>

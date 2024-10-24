@@ -1,0 +1,40 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+    <Popover title="{i18n>VARIANT_SELECT_LIST_TITLE}" contentWidth="550px" contentHeight="300px" placement="Bottom" beforeOpen="onAfterOpenVariantSelectList">
+       <Table id="timeAllocationsTable" mode="SingleSelectMaster" sticky="ColumnHeaders" selectionChange="onSelectionChange" items="{VariantItems>/Items}">
+            <columns>
+                <Column id="variantNameCol" width="auto">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_NAME_COLUMN}" />
+                </Column>
+                <Column id="authorCol" width="auto">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_AUTHOR_COLUMN}" />
+                </Column>
+                <Column id="orgNumCol" width="auto">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGNUM_COLUMN}" />
+                </Column>
+                <Column id="orgDescCol" width="auto">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGDESC_COLUMN}" />
+                </Column>
+                <Column id="typeCol" width="auto">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_TYPE_COLUMN}" />
+                </Column>
+            </columns>
+            <ColumnListItem>
+                <cells>
+                    <Text text="{VariantItems>VariantDisplayName}" />
+                    <Text text="{VariantItems>OwnerId}" />
+                    <Text id="orgnumText" text="{VariantItems>OrgId}" />
+                    <Text id="orgdescText" text="{VariantItems>OrgTxt}" />
+                    <Text text="{=${VariantItems>Scope} === 'GLOBAL' ? ${i18n>MANAGEVARIANTS_DIALOG_VARIANT_COMBO_GLOBAL} : ${i18n>MANAGEVARIANTS_DIALOG_VARIANT_COMBO_PRIVATE}}" />
+                </cells>
+            </ColumnListItem>
+        </Table>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Button id="manageButton" text="{i18n>VARIANT_SELECT_MANAGE_BUTTON}" press="onVariantManage" />
+                <Button id="saveButton" text="{i18n>VARIANT_SELECT_SAVE_BUTTON}" press="onVariantSave" />
+                <Button id="saveAsButton" text="{i18n>VARIANT_SELECT_SAVEAS_BUTTON}" press="onSaveAs" />
+            </Toolbar>
+        </footer>
+    </Popover>
+</core:FragmentDefinition>

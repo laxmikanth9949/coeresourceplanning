@@ -1,0 +1,105 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:m="sap.m" xmlns:l="sap.ui.layout" xmlns:EmpSingleSelect="sap.coe.capacity.reuselib.controls.EmployeeSingleSelect">
+    <Dialog title="{i18n>MANAGEVARIANTS_DIALOG_TITLE}" contentWidth="1000px" contentHeight="70%" beforeOpen="onAfterOpenManageVariant">
+        <l:Grid id="searchGrid" class="sapUiTinyMarginTop" visible="false" position="Center" vSpacing="0" hSpacing="2" defaultSpan="L5 M5 S12">
+            <Label id="employeeText" text="{i18n>MANAGEVARIANTS_DIALOG_EMPLOYEE_LABEL}" class="sapUiTinyMarginTop sapUiMediumMarginBegin">
+                <layoutData>
+                    <l:GridData span="L3 M5 S12"/>
+                </layoutData>
+            </Label>
+            <EmpSingleSelect:EmployeeSearchComponent id="empSelect"/>
+            <Button id="btnSearchEmployee" text="{i18n>MANAGEVARIANTS_DIALOG_SEARCH_BUTTON}" press="onSearchEmployeeVariants">
+                <layoutData>
+                    <l:GridData span="L2 M2 S12"/>
+                </layoutData>
+            </Button>
+        </l:Grid>
+        <Table mode="MultiSelect" id="searchVariantsTable" sticky="ColumnHeaders" fixedLayout="false" visible="false">
+            <headerToolbar>
+                <Toolbar>
+
+                    <Button icon="sap-icon://nav-back" tooltip="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_TOOLTIP_NAVIGATE_BACK}" press="toggleVariantTable" />
+                    <ToolbarSpacer />
+                    <SearchField
+                            id="searchGlobalVariants"
+                            placeholder="{i18n>GLOBALVARIANT_SEARCH_FIELD_PLACEHOLDER}"
+                            liveChange="onGlobalVariantLiveSearch"
+                            search="onGlobalVariantSearch"
+                            width="100%" />
+                    <Button id="sortItems" tooltip="{i18n>SORT_ITEMS_TOOLTIP}" icon="sap-icon://sort" press="onSortTablePress" />
+                    <!-- <SearchField placeholder="Filter Variants" search="onFilterVariants" width="15rem"/> -->
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_NAME_COLUMN}" />
+                </Column>
+                <Column>
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_AUTHOR_COLUMN}" />
+                </Column>
+                <Column>
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGNUM_COLUMN}" />
+                </Column>
+                <Column>
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGDESC_COLUMN}" />
+                </Column>
+                <Column>
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_TYPE_COLUMN}" />
+                </Column>
+            </columns>
+        </Table>
+        <Table id="manageVariantsTable" sticky="ColumnHeaders" fixedLayout="false" items="{TempVariants>/Items}">
+            <headerToolbar>
+                <Toolbar>
+                    <ToolbarSpacer />
+                    <Button tooltip="{i18n>SORT_ITEMS_TOOLTIP}" icon="sap-icon://sort" press="onSortTablePress" />
+                    <Button icon="sap-icon://browse-folder" id="idLinkToSearchVariants" tooltip="{i18n>MANAGEVARIANTS_EMPLOYEE_SEARCH_BUTTON_TOOLTIP}" press="toggleVariantTable" />
+                    <Button icon="sap-icon://globe" id="idLinkToSearchGlobalVariants" tooltip="{i18n>MANAGEVARIANTS_GLOBAL_BUTTON_TOOLTIP}" press="searchGlobalVariant" />
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column id="variantNameCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_NAME_COLUMN}" />
+                </Column>
+                <Column id="defaultCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_DEFAULT_COLUMN}" />
+                </Column>
+                <Column id="authorCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_AUTHOR_COLUMN}" />
+                </Column>
+                <Column id="orgNumCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGNUM_COLUMN}" />
+                </Column>
+                <Column id="orgDescCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_ORGDESC_COLUMN}" />
+                </Column>
+                <Column id="typeCol">
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_TYPE_COLUMN}" />
+                </Column>
+                <Column id="deleteCol" >
+                    <Text text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_DELETE_COLUMN}" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem id="manageListItem">
+                    <cells>
+                        <Input id="variantNameInput" maxLength="30" value="{TempVariants>VariantDisplayName}" editable="{parts: [{path: 'TempVariants>Scope'}, {path: 'TempVariants>OwnerId'}], formatter: '.isEditable'}" liveChange="onLiveChangeVariantName" />
+                        <RadioButton id="defaultCheck" selected="{TempVariants>IsDefault}" select="onChangeDefault" />
+                        <Text id="authorText" text="{TempVariants>OwnerId}" />
+                        <Text id="orgnumText" text="{TempVariants>OrgId}" />
+                        <Text id="orgdescText" text="{TempVariants>OrgTxt}" />
+                        <Select id="scopeCombo" selectedKey="{TempVariants>Scope}" change="onEditScope" enabled="{= ${TempVariants>Scope} === 'LOCAL'}">
+                            <core:Item key="LOCAL" text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_COMBO_PRIVATE}" />
+                            <core:Item key="GLOBAL" text="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_COMBO_GLOBAL}" />
+                        </Select>
+                        <Button visible="{= ${TempVariants>IsDefault} !== true}" type="Transparent" icon="sap-icon://sys-cancel" tooltip="{i18n>MANAGEVARIANTS_DIALOG_VARIANT_DELETE_COLUMN}" press="onVariantDelete" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+        <buttons>
+            <Button id="btnCopy" text="{i18n>MANAGEVARIANTS_DIALOG_COPY_BUTTON}" press="onCopyVariants" visible="false" />
+            <Button id="btnSave" text="{i18n>MANAGEVARIANTS_DIALOG_SAVE_BUTTON}" press="onVariantsEdit" />
+            <Button id="btnClose" text="{i18n>MANAGEVARIANTS_DIALOG_CANCEL_BUTTON}" press="onCloseDialog" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

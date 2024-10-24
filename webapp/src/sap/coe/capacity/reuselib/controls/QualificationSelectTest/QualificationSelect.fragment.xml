@@ -1,0 +1,25 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" 
+	xmlns:m="sap.m" >
+	<Dialog title="{i18n>FRAGMENT_SKILLSELECTTREE_TITLE}" 
+		contentWidth="650px" contentHeight="70%" >
+     <Page
+       id="QualificationDialog"
+       title=""
+       showNavButton="false"
+       navButtonPress="onQualificationNavBack"
+       showHeader="true">
+       <List
+         id="qualificationCatalogList"
+         mode="MultiSelect"
+         selectionChange="onQualificationSeclectionChange"
+		     itemPress="onQualificationNav">
+       </List>
+     </Page>
+    <beginButton>
+      <Button id="acceptForQualificationid" text="{i18n>FRAGMENT_SKILLSELECTTREE_BUTTON_OK}" press="onApplyTokens" />
+    </beginButton>
+		<endButton>
+			<Button id="idForCloseButton" text="{i18n>FRAGMENT_SKILLSELECTTREE_CLOSE}" press="onCloseDialog" />
+		</endButton>      
+	</Dialog>
+</core:FragmentDefinition>

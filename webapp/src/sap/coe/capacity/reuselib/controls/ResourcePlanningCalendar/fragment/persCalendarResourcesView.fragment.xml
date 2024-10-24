@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" >
+    <Dialog title="{i18n>FRAGMENT_CALENDAR_PERS_TITLE}" beforeOpen="onBeforeOpenPers">
+        <VBox>
+            <CheckBox id="EmpId" text="{i18n>FRAGMENT_CALENDAR_SORT_EMPLOYEENO}" />
+            <CheckBox id="COUNTRY" text="{i18n>FRAGMENT_CALENDAR_SORT_COUNTRY}" />
+            <CheckBox id="OrgTxt" text="{i18n>FRAGMENT_CALENDAR_SORT_ORGNAME}" />
+            <CheckBox id="OrgId" text="{i18n>FRAGMENT_CALENDAR_SORT_ORGNO}" />
+        </VBox>
+        <buttons>
+            <Button id="idForSaveButton" text="{i18n>FRAGMENT_CALENDAR_SORT_OK}" press="onSetResourcePers" />
+            <Button id="idForCancelButton" text="{i18n>FRAGMENT_CALENDAR_SORT_CANCEL}" press="onCloseDialog" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

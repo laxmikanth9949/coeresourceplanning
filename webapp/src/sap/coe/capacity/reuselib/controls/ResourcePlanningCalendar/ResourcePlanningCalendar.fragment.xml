@@ -1,0 +1,97 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:unified="sap.ui.unified">
+      <PlanningCalendar id="PC1" viewChange="onCalendarChange"
+         startDateChange="onCalendarChange" appointmentSelect="appointmentDetailPopoverPress"
+         rowSelectionChange="onRowSelectionChange"
+         rowHeaderClick="onRowHeaderClick"
+         showEmptyIntervalHeaders="false"
+         rows="{path:'resourceModel>/'}"
+         viewKey="6"
+         showWeekNumbers="true"
+         stickyHeader="true"
+         showIntervalHeaders="false"
+         showDayNamesLine="true">
+        <toolbarContent>
+        <Button id="timezonebtnid" text="{i18n>VIEW_MYSTAFFING_TIMEZONE_TEXT_SELECT}" tooltip="Please Select the TimeZone" press="_showSettingsDialog" type="Emphasized"></Button>
+          <Label id="timezoneSelected"  text="{parts: [ 
+              {path:'i18n>VIEW_MYSTAFFING_TIMEZONE_TEXT'},            
+              {path: 'TimeZone>/SelectedTimeZone'},
+              {path: 'TimeZone>/'}
+            ], formatter: '.formatter.displayTimeZone'}" class="sapUiSmallMarginEnd"  />
+          <Button text="{i18n>VIEW_MYSTAFFING_CREATETIMEALLOCATION_LINK}" press="openCreateDialog" id="idCreateTimeAllocation"
+                  visible="{UIModel>/createTimeAllocationButtonVisibility}"/>
+          <Button icon="sap-icon://message-information" type="Emphasized" tooltip="Color Legend" id="idOpenColorLegend" press="onOpenColorLegend"/>
+          <Button icon="sap-icon://filter" id="idOpenCalendarSettings" tooltip="{i18n>FILTER_ITEMS_TOOLTIP}" press="onOpenCalendarSettings"/>
+          <Button icon="sap-icon://sort" id="idSortCalendarItems" tooltip="{i18n>SORT_RESOURCES_TOOLTIP}" press="onSortCalendarPress" />
+          <Button icon="sap-icon://provision" id="idPersonalizeCalendarItems" tooltip="{i18n>PERS_RESOURCES_TOOLTIP}" press="onPersonalizeCalendarPress"/>
+          <Button icon="sap-icon://full-screen" id="idFullScreen" press="onEnterFullScreen"/>
+          <Button icon="sap-icon://action-settings" id="idSettings" tooltip="{i18n>STEP_SETTINGS_TOOLTIP}" press="onCalendarStepDialogPress"/>
+        </toolbarContent>
+        <views>
+          <PlanningCalendarView
+            description="1 Week"
+            key="1"
+            intervalType="Day"
+            intervalsS="7"
+            intervalsM="7"
+            intervalsL="7"
+            showSubIntervals="false" >
+          </PlanningCalendarView>
+          <PlanningCalendarView
+            description="2 Weeks"
+            key="2"
+            intervalType="Day"
+            intervalsS="14"
+            intervalsM="14"
+            intervalsL="14"
+            showSubIntervals="false" >
+          </PlanningCalendarView>
+          <PlanningCalendarView
+            description="4 Weeks"
+            key="4"
+            intervalType="Day"
+            intervalsS="28"
+            intervalsM="28"
+            intervalsL="28"
+            showSubIntervals="false" >
+          </PlanningCalendarView>
+          <PlanningCalendarView
+            description="6 Weeks"
+            key="6"
+            intervalType="Day"
+            intervalsS="42"
+            intervalsM="42"
+            intervalsL="42"
+            showSubIntervals="false" >
+          </PlanningCalendarView>
+        </views>
+        <rows>
+           <PlanningCalendarRow
+            icon="{= ${resourceModel>Staffer} === 'X' ? 'sap-icon://collaborate' : 'sap-icon://employee' }"
+            title="{parts:[{path:'resourceModel>FullName'}, {path:'resourceModel>EmpId'}], formatter:'.formatter.formatPersTitle'}"
+            text="{parts:[{path:'resourceModel>COUNTRY'}, {path:'resourceModel>OrgId'}, {path:'resourceModel>OrgTxt'}], formatter:'.formatter.formatPersText'}"
+            appointments="{path: 'resourceModel>RPTASTDataSet/results', templateShareable:'true'}"
+            intervalHeaders="{path: 'resourceModel>CWData/results', templateShareable:'true'}" >
+            <appointments>
+              <unified:CalendarAppointment
+                startDate="{ path: 'resourceModel>BegDate'}"
+                endDate="{ path: 'resourceModel>EndDate'}"
+                type="{parts: [{path: 'resourceModel>'}], formatter: '.formatter.setAppointmentType'}"
+                title="{parts: [{path: 'resourceModel>Type'}, {path:'resourceModel>SHPName'}, {path:'resourceModel>CustomerName'}], formatter: '.formatter.setBindingTextForCategoryWithCustomer'}"
+                text="{parts:[{path:'resourceModel>ItemDescription'}, {path:'resourceModel>Duration'}], formatter:'.formatter.addDaysToDurationWithDescription'}"
+                tentative="{= (${resourceModel>SHPName} === 'ZTS' ) ? true : false }"
+                tooltip="{path: 'resourceModel>', formatter:'.formatter.concatValuesForCalendarTooltip'}" >
+              </unified:CalendarAppointment>
+            </appointments>
+            <intervalHeaders>
+              <unified:CalendarAppointment
+                startDate="{path: 'resourceModel>begin'}"
+                endDate="{path: 'resourceModel>end'}"
+                title="{path:'resourceModel>title'}"
+                tooltip="{path:'resourceModel>title'}"
+                type="Type03" >
+              </unified:CalendarAppointment>
+            </intervalHeaders>            
+          </PlanningCalendarRow>
+        </rows>        
+      </PlanningCalendar>
+</core:FragmentDefinition>
